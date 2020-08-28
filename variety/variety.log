@@ -1,0 +1,1967 @@
+INFO: 2020-08-28 03:57:50,129: main() 'Using profile folder /home/zyw/.config/variety/'
+INFO: 2020-08-28 03:57:50,135: perform_upgrade() 'Last run version was 0.8.3 or earlier, current version is 0.8.3'
+INFO: 2020-08-28 03:57:50,299: process_command() 'Received command: []'
+INFO: 2020-08-28 03:57:50,301: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2020-08-28 03:57:50,314: start() 'Using data_path /usr/share/variety'
+INFO: 2020-08-28 03:57:50,314: load() 'Jumble loading'
+INFO: 2020-08-28 03:57:50,314: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2020-08-28 03:57:50,316: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2020-08-28 03:57:50,316: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2020-08-28 03:57:50,324: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': '从 QuotationsPage.com 获取箴言', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,324: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2020-08-28 03:57:50,325: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,326: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2020-08-28 03:57:50,326: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,326: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2020-08-28 03:57:50,327: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,327: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2020-08-28 03:57:50,328: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': '从 Goodreads.com 获取箴言', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,329: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2020-08-28 03:57:50,330: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,331: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2020-08-28 03:57:50,333: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,333: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2020-08-28 03:57:50,334: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2020-08-28 03:57:50,335: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,336: _walk_modules() 'Jumble loading module in DesktopprDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py'
+INFO: 2020-08-28 03:57:50,336: load() 'Jumble found plugin class: <class 'DesktopprDownloader.DesktopprDownloader'>: {'name': 'DesktopprDownloader', 'description': 'Random wallpapers from Desktoppr.co', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,337: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2020-08-28 03:57:50,340: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,341: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2020-08-28 03:57:50,342: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,342: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2020-08-28 03:57:50,343: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2020-08-28 03:57:50,343: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,343: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2020-08-28 03:57:50,344: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2020-08-28 03:57:50,344: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2020-08-28 03:57:50,345: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,345: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2020-08-28 03:57:50,346: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,347: _walk_modules() 'Jumble loading module in ChromeOSWallpapersDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py'
+INFO: 2020-08-28 03:57:50,348: load() 'Jumble found plugin class: <class 'ChromeOSWallpapersDownloader.ChromeOSWallpapersDownloader'>: {'name': 'ChromeOsWallpapersDownloader', 'description': 'Chrome OS Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-08-28 03:57:50,381: reload_config() 'Creating new downloader for type flickr, location user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 03:57:50,381: reload_config() 'Creating new downloader for type apod, location NASA's Astronomy Picture of the Day'
+INFO: 2020-08-28 03:57:50,381: reload_config() 'Creating new downloader for type bing, location Bing Photo of the Day'
+INFO: 2020-08-28 03:57:50,381: reload_config() 'Creating new downloader for type chromeos, location Chrome OS Wallpapers'
+INFO: 2020-08-28 03:57:50,381: reload_config() 'Creating new downloader for type desktoppr, location Random wallpapers from Desktoppr.co'
+INFO: 2020-08-28 03:57:50,381: reload_config() 'Creating new downloader for type earthview, location Google Earth View Wallpapers'
+INFO: 2020-08-28 03:57:50,381: reload_config() 'Creating new downloader for type unsplash, location High-resolution photos from Unsplash.com'
+INFO: 2020-08-28 03:57:50,384: log_options() 'Loaded options:'
+INFO: 2020-08-28 03:57:50,384: log_options() 'change_enabled = False'
+INFO: 2020-08-28 03:57:50,384: log_options() 'change_interval = 300'
+INFO: 2020-08-28 03:57:50,384: log_options() 'change_on_start = False'
+INFO: 2020-08-28 03:57:50,384: log_options() 'clipboard_enabled = True'
+INFO: 2020-08-28 03:57:50,384: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2020-08-28 03:57:50,384: log_options() 'clipboard_use_whitelist = True'
+INFO: 2020-08-28 03:57:50,384: log_options() 'clock_date_font = Ubuntu Condensed, 30'
+INFO: 2020-08-28 03:57:50,384: log_options() 'clock_enabled = True'
+INFO: 2020-08-28 03:57:50,384: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2020-08-28 03:57:50,384: log_options() 'clock_font = Ubuntu Condensed, 70'
+INFO: 2020-08-28 03:57:50,384: log_options() 'configfile = /home/zyw/.config/variety/variety.conf'
+INFO: 2020-08-28 03:57:50,384: log_options() 'copyto_enabled = True'
+INFO: 2020-08-28 03:57:50,384: log_options() 'copyto_folder = Default'
+INFO: 2020-08-28 03:57:50,385: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2020-08-28 03:57:50,385: log_options() 'desired_color_enabled = False'
+INFO: 2020-08-28 03:57:50,385: log_options() 'download_folder = /home/zyw/.config/variety/Downloaded'
+INFO: 2020-08-28 03:57:50,385: log_options() 'download_preference_ratio = 0.9'
+INFO: 2020-08-28 03:57:50,385: log_options() 'favorites_folder = /home/zyw/.config/variety/Favorites'
+INFO: 2020-08-28 03:57:50,385: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2020-08-28 03:57:50,385: log_options() 'fetched_folder = /home/zyw/.config/variety/Fetched'
+INFO: 2020-08-28 03:57:50,385: log_options() 'filters = [[True, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-blur 120x40'], [False, 'Soft blur', '-blur 20x7'], [True, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2020-08-28 03:57:50,385: log_options() 'icon = Light'
+INFO: 2020-08-28 03:57:50,385: log_options() 'lightness_enabled = True'
+INFO: 2020-08-28 03:57:50,385: log_options() 'lightness_mode = 0'
+INFO: 2020-08-28 03:57:50,385: log_options() 'min_rating = 3'
+INFO: 2020-08-28 03:57:50,385: log_options() 'min_rating_enabled = True'
+INFO: 2020-08-28 03:57:50,385: log_options() 'min_size = 80'
+INFO: 2020-08-28 03:57:50,385: log_options() 'min_size_enabled = False'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quota_enabled = True'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quota_size = 1000'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_authors = '
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_bg_opacity = 55'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_change_enabled = False'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_change_interval = 300'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_enabled = False'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_favorites_file = /home/zyw/.config/variety/favorite_quotes.txt'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_font = Bitstream Charter 30'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_hpos = 100'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_max_length = 250'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_tags = '
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_text_shadow = False'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_vpos = 40'
+INFO: 2020-08-28 03:57:50,385: log_options() 'quotes_width = 70'
+INFO: 2020-08-28 03:57:50,385: log_options() 'safe_mode = False'
+INFO: 2020-08-28 03:57:50,385: log_options() 'slideshow_custom_enabled = False'
+INFO: 2020-08-28 03:57:50,385: log_options() 'slideshow_custom_folder = /home/zyw/Pictures'
+INFO: 2020-08-28 03:57:50,385: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2020-08-28 03:57:50,385: log_options() 'slideshow_fade = 0.4'
+INFO: 2020-08-28 03:57:50,385: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2020-08-28 03:57:50,385: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2020-08-28 03:57:50,385: log_options() 'slideshow_monitor = All'
+INFO: 2020-08-28 03:57:50,385: log_options() 'slideshow_pan = 0.05'
+INFO: 2020-08-28 03:57:50,386: log_options() 'slideshow_seconds = 6.0'
+INFO: 2020-08-28 03:57:50,386: log_options() 'slideshow_sort_order = Random'
+INFO: 2020-08-28 03:57:50,386: log_options() 'slideshow_sources_enabled = True'
+INFO: 2020-08-28 03:57:50,386: log_options() 'slideshow_zoom = 0.2'
+INFO: 2020-08-28 03:57:50,386: log_options() 'smart_enabled = False'
+INFO: 2020-08-28 03:57:50,386: log_options() 'smart_notice_shown = False'
+INFO: 2020-08-28 03:57:50,386: log_options() 'smart_register_shown = False'
+INFO: 2020-08-28 03:57:50,386: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [True, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [True, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', "NASA's Astronomy Picture of the Day"], [True, 'bing', 'Bing Photo of the Day'], [True, 'chromeos', 'Chrome OS Wallpapers'], [True, 'desktoppr', 'Random wallpapers from Desktoppr.co'], [True, 'earthview', 'Google Earth View Wallpapers'], [True, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2020-08-28 03:57:50,386: log_options() 'stats_enabled = True'
+INFO: 2020-08-28 03:57:50,386: log_options() 'stats_notice_shown = False'
+INFO: 2020-08-28 03:57:50,386: log_options() 'sync_enabled = True'
+INFO: 2020-08-28 03:57:50,386: log_options() 'use_landscape_enabled = True'
+INFO: 2020-08-28 03:57:50,386: reload_config() 'No need to clear prepared queue'
+INFO: 2020-08-28 03:57:50,386: clock_thread_method() 'clock thread running'
+INFO: 2020-08-28 03:57:50,386: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 03:57:50,392: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
+INFO: 2020-08-28 03:57:50,392: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 03:57:50,393: regular_change_thread() 'regular_change thread running'
+INFO: 2020-08-28 03:57:50,393: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2020-08-28 03:57:50,393: prepare_thread() 'Prepare thread running'
+INFO: 2020-08-28 03:57:50,394: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 03:57:50,394: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2020-08-28 03:57:50,394: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 03:57:50,394: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 03:57:50,395: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 03:57:50,395: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 03:57:50,395: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 03:57:50,395: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 03:57:50,395: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 03:57:50,395: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 03:57:50,395: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 03:57:50,395: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 03:57:50,396: update_indicator_icon() 'Creating indicator'
+WARNING: 2020-08-28 03:57:50,409: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2020-08-28 03:57:50,409: create_indicator() 'indicator backend: AppIndicator3'
+INFO: 2020-08-28 03:57:50,455: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2020-08-28 03:57:50,493: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598558270.4930615'
+INFO: 2020-08-28 03:57:50,498: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:1920, ih:1200, scw:1920, sch:1200, ho:0, vo:60'
+INFO: 2020-08-28 03:57:50,498: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+168 '03:57' -fill white -annotate 0x0+60+170 '03:57' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+118 'Friday, August 28' -fill white -annotate 0x0+60+120 'Friday, August 28''
+INFO: 2020-08-28 03:57:50,498: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+168 '03:57' -fill white -annotate 0x0+60+170 '03:57' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+118 'Friday, August 28' -fill white -annotate 0x0+60+120 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-8789234c75f3a528fe95af235c401b2b.jpg'
+INFO: 2020-08-28 03:57:50,773: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 03:57:50,786: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 03:57:51,392: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 03:57:51,498: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598558271.4983401'
+INFO: 2020-08-28 03:57:51,517: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:1920, ih:1200, scw:1920, sch:1200, ho:0, vo:60'
+INFO: 2020-08-28 03:57:51,518: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+168 '03:57' -fill white -annotate 0x0+60+170 '03:57' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+118 'Friday, August 28' -fill white -annotate 0x0+60+120 'Friday, August 28''
+INFO: 2020-08-28 03:57:51,518: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+168 '03:57' -fill white -annotate 0x0+60+170 '03:57' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+118 'Friday, August 28' -fill white -annotate 0x0+60+120 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-0e4bb004b44cca7244bafdc3cba067b8.jpg'
+INFO: 2020-08-28 03:57:51,774: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 03:57:51,775: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 03:57:52,096: reload() 'Reloading preferences dialog'
+INFO: 2020-08-28 03:57:53,185: prepare_thread() 'After search prepared buffer contains 3 images'
+INFO: 2020-08-28 03:57:55,186: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-08-28 03:57:55,429: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b98233130>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b98233130>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b98233130>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 03:57:56,435: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 03:57:56,435: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 03:57:56,435: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 03:57:56,435: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 03:57:56,435: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 03:57:56,436: download_one() 'NASA Astro Pic of the Day: Queue size: 0'
+INFO: 2020-08-28 03:57:56,436: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 03:57:56,436: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 03:57:56,436: download_one() 'NASA Astro Pic of the Day: Filling queue'
+INFO: 2020-08-28 03:57:56,436: fill_queue() 'Filling APOD queue from Archive'
+INFO: 2020-08-28 03:58:00,402: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 03:58:00,403: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598558280.4031374'
+INFO: 2020-08-28 03:58:00,403: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:1920, ih:1200, scw:1920, sch:1200, ho:0, vo:60'
+INFO: 2020-08-28 03:58:00,403: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+168 '03:58' -fill white -annotate 0x0+60+170 '03:58' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+118 'Friday, August 28' -fill white -annotate 0x0+60+120 'Friday, August 28''
+INFO: 2020-08-28 03:58:00,403: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+168 '03:58' -fill white -annotate 0x0+60+170 '03:58' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+118 'Friday, August 28' -fill white -annotate 0x0+60+120 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-fb4e4ef8e6ed8849e1efdd7e62f10ac2.jpg'
+INFO: 2020-08-28 03:58:00,593: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 03:58:00,595: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 03:58:10,414: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+INFO: 2020-08-28 11:58:11,913: download_one() 'NASA Astro Pic of the Day: Queue populated with 730 URLs'
+INFO: 2020-08-28 11:58:11,913: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap181130.html'
+ERROR: 2020-08-28 11:58:14,672: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3b99aa2580>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b99aa2580>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b99aa2580>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 11:58:15,076: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/1811/5677RiverOrionSennikovs.jpg'
+INFO: 2020-08-28 11:58:15,076: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap181130.html'
+INFO: 2020-08-28 11:58:15,076: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/1811/5677RiverOrionSennikovs.jpg'
+INFO: 2020-08-28 11:58:15,076: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/5677RiverOrionSennikovs.jpg'
+INFO: 2020-08-28 11:58:44,704: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2020-08-28 11:58:49,726: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3b8406b610>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b8406b610>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b8406b610>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 11:59:00,701: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 11:59:00,701: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587140.7014303'
+INFO: 2020-08-28 11:59:00,701: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 11:59:00,702: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '11:59' -fill white -annotate 0x0+60+110 '11:59' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 11:59:00,702: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '11:59' -fill white -annotate 0x0+60+110 '11:59' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-d8198b29536a7ba9d07545bda4cda6cb.jpg'
+INFO: 2020-08-28 11:59:00,970: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 11:59:00,972: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 11:59:19,730: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2020-08-28 11:59:24,745: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3b8406b9a0>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b8406b9a0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b8406b9a0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 11:59:54,776: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2020-08-28 11:59:59,790: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3b84076610>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b84076610>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b84076610>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:00:00,768: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:00:00,768: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587200.7687716'
+INFO: 2020-08-28 12:00:00,770: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:00:00,771: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:00' -fill white -annotate 0x0+60+110 '12:00' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:00:00,771: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:00' -fill white -annotate 0x0+60+110 '12:00' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-40ee1a73d9fd889a7de0b2f9c9e59287.jpg'
+INFO: 2020-08-28 12:00:00,980: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:00:00,981: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:00:29,822: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2020-08-28 12:00:34,848: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1301, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3b8406b6a0>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b8406b6a0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1087, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3b8406b6a0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:01:00,834: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:01:00,835: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587260.8354433'
+INFO: 2020-08-28 12:01:00,837: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:01:00,837: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:01' -fill white -annotate 0x0+60+110 '12:01' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:01:00,837: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:01' -fill white -annotate 0x0+60+110 '12:01' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-729b0edbf7ff42de46e92623fc5e5160.jpg'
+INFO: 2020-08-28 12:01:01,050: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:01:01,051: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:01:19,818: save_locally() 'Download complete'
+INFO: 2020-08-28 12:01:19,818: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:01:19,819: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:01:19,819: prepare_thread() 'Prepared buffer contains 3 images'
+INFO: 2020-08-28 12:01:19,820: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:01:20,827: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:01:20,830: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:01:20,830: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:01:20,830: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:01:20,830: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:01:20,830: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:01:20,830: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:01:20,830: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:01:20,830: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:01:20,831: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 12:01:21,326: prepare_thread() 'After search prepared buffer contains 4 images'
+INFO: 2020-08-28 12:01:23,327: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-08-28 12:01:25,855: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b84065d30>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b84065d30>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b84065d30>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:01:26,856: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:01:26,856: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:01:26,856: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:01:26,857: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:01:26,857: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:01:26,857: download_one() 'NASA Astro Pic of the Day: Queue size: 729'
+INFO: 2020-08-28 12:01:26,857: download_one() 'NASA Astro Pic of the Day: Queue populated with 729 URLs'
+INFO: 2020-08-28 12:01:26,857: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap190302.html'
+INFO: 2020-08-28 12:01:29,266: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/1903/NGC6302_ButterflyNebula_NASA.jpg'
+INFO: 2020-08-28 12:01:29,267: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap190302.html'
+INFO: 2020-08-28 12:01:29,267: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/1903/NGC6302_ButterflyNebula_NASA.jpg'
+INFO: 2020-08-28 12:01:29,268: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/NGC6302_ButterflyNebula_NASA.jpg'
+INFO: 2020-08-28 12:02:00,896: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:02:00,897: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587320.897451'
+INFO: 2020-08-28 12:02:00,899: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:02:00,899: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:02' -fill white -annotate 0x0+60+110 '12:02' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:02:00,899: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:02' -fill white -annotate 0x0+60+110 '12:02' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-cf8319d1dbe0196d4a6582aef2e54b59.jpg'
+INFO: 2020-08-28 12:02:01,164: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:02:01,165: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:03:00,964: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:03:00,965: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587380.9656496'
+INFO: 2020-08-28 12:03:00,972: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:03:00,973: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:03' -fill white -annotate 0x0+60+110 '12:03' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:03:00,973: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:03' -fill white -annotate 0x0+60+110 '12:03' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-5d931df17a8b31f5743e1c70ad3bb21b.jpg'
+INFO: 2020-08-28 12:03:01,185: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:03:01,186: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:04:00,031: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:04:00,032: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587440.0323558'
+INFO: 2020-08-28 12:04:00,034: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:04:00,034: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:04' -fill white -annotate 0x0+60+110 '12:04' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:04:00,034: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:04' -fill white -annotate 0x0+60+110 '12:04' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-e925e26d1d84484da3b98a6a810ea854.jpg'
+INFO: 2020-08-28 12:04:00,285: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:04:00,286: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:05:00,098: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:05:00,099: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587500.0989892'
+INFO: 2020-08-28 12:05:00,100: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:05:00,101: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:05' -fill white -annotate 0x0+60+110 '12:05' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:05:00,101: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:05' -fill white -annotate 0x0+60+110 '12:05' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-e7efba032f55fd5ba2c5916158f20415.jpg'
+INFO: 2020-08-28 12:05:00,394: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:05:00,395: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:06:00,164: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:06:00,165: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587560.1658032'
+INFO: 2020-08-28 12:06:00,167: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:06:00,168: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:06' -fill white -annotate 0x0+60+110 '12:06' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:06:00,168: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:06' -fill white -annotate 0x0+60+110 '12:06' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-bac8ae7b02be0371e8545bd1d979eeb0.jpg'
+INFO: 2020-08-28 12:06:00,389: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:06:00,390: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:06:41,343: save_locally() 'Download complete'
+INFO: 2020-08-28 12:06:41,343: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:06:41,346: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:06:41,350: prepare_thread() 'Prepared buffer contains 4 images'
+INFO: 2020-08-28 12:06:41,350: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:06:42,162: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:06:42,352: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:06:42,352: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:06:42,352: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:06:42,353: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:06:42,353: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:06:42,353: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:06:42,353: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:06:42,353: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:06:42,353: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:06:42,353: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 12:06:44,162: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-08-28 12:06:47,384: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b840b77c0>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b840b77c0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b840b77c0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:06:48,386: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:06:48,386: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:06:48,386: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:06:48,386: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:06:48,386: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:06:48,386: download_one() 'NASA Astro Pic of the Day: Queue size: 728'
+INFO: 2020-08-28 12:06:48,386: download_one() 'NASA Astro Pic of the Day: Queue populated with 728 URLs'
+INFO: 2020-08-28 12:06:48,386: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap190504.html'
+INFO: 2020-08-28 12:06:50,861: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/1905/20190202tezel.jpg'
+INFO: 2020-08-28 12:06:50,862: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap190504.html'
+INFO: 2020-08-28 12:06:50,862: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/1905/20190202tezel.jpg'
+INFO: 2020-08-28 12:06:50,862: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/20190202tezel.jpg'
+INFO: 2020-08-28 12:07:00,230: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:07:00,230: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587620.230709'
+INFO: 2020-08-28 12:07:00,232: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:07:00,233: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:07' -fill white -annotate 0x0+60+110 '12:07' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:07:00,233: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:07' -fill white -annotate 0x0+60+110 '12:07' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-3977afd6e575ee6f36c5c55521ffa9ef.jpg'
+INFO: 2020-08-28 12:07:00,472: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:07:00,473: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:08:00,292: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:08:00,292: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587680.2928557'
+INFO: 2020-08-28 12:08:00,293: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:08:00,294: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:08' -fill white -annotate 0x0+60+110 '12:08' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:08:00,294: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:08' -fill white -annotate 0x0+60+110 '12:08' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-0393610552de4ee3c37285e7efdfd3c0.jpg'
+INFO: 2020-08-28 12:08:00,521: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:08:00,522: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:08:12,429: save_locally() 'Download complete'
+INFO: 2020-08-28 12:08:12,430: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:08:12,434: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:08:12,439: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:08:12,439: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:08:13,048: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:08:13,442: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:08:13,442: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:08:13,442: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:08:13,443: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:08:13,443: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:08:13,443: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:08:13,443: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:08:13,443: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:08:13,443: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:08:13,443: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+ERROR: 2020-08-28 12:08:13,507: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b84015100>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b84015100>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b84015100>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:08:14,510: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:08:14,510: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:08:14,510: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:08:14,510: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:08:14,510: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:08:14,510: download_one() 'NASA Astro Pic of the Day: Queue size: 727'
+INFO: 2020-08-28 12:08:14,510: download_one() 'NASA Astro Pic of the Day: Queue populated with 727 URLs'
+INFO: 2020-08-28 12:08:14,510: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap200802.html'
+INFO: 2020-08-28 12:08:15,048: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:08:17,949: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/2008/TwoWorldsOneSun_Bouic_2683.jpg'
+INFO: 2020-08-28 12:08:17,949: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap200802.html'
+INFO: 2020-08-28 12:08:17,949: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/2008/TwoWorldsOneSun_Bouic_2683.jpg'
+INFO: 2020-08-28 12:08:17,949: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/TwoWorldsOneSun_Bouic_2683.jpg'
+INFO: 2020-08-28 12:09:00,356: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:09:00,357: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587740.3573158'
+INFO: 2020-08-28 12:09:00,358: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:09:00,359: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:09' -fill white -annotate 0x0+60+110 '12:09' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:09:00,359: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:09' -fill white -annotate 0x0+60+110 '12:09' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-316b59c47a5a327530ffa35860188ae0.jpg'
+INFO: 2020-08-28 12:09:00,628: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:09:00,630: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:09:18,804: save_locally() 'Download complete'
+INFO: 2020-08-28 12:09:18,804: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:09:18,805: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:09:18,805: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:09:18,806: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:09:19,275: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:09:19,807: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:09:19,808: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:09:19,808: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:09:19,808: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:09:19,808: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:09:19,808: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:09:19,808: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:09:19,808: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:09:19,808: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:09:19,808: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 12:09:21,275: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-08-28 12:09:24,837: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b84035340>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b84035340>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b84035340>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:09:25,840: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:09:25,840: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:09:25,840: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:09:25,840: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:09:25,840: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:09:25,840: download_one() 'NASA Astro Pic of the Day: Queue size: 726'
+INFO: 2020-08-28 12:09:25,840: download_one() 'NASA Astro Pic of the Day: Queue populated with 726 URLs'
+INFO: 2020-08-28 12:09:25,841: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap190904.html'
+INFO: 2020-08-28 12:09:30,499: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/1909/SpiderFly_Spitzer2Mass_4165.jpg'
+INFO: 2020-08-28 12:09:30,499: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap190904.html'
+INFO: 2020-08-28 12:09:30,499: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/1909/SpiderFly_Spitzer2Mass_4165.jpg'
+INFO: 2020-08-28 12:09:30,500: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/SpiderFly_Spitzer2Mass_4165.jpg'
+INFO: 2020-08-28 12:10:00,421: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:10:00,421: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587800.4217727'
+INFO: 2020-08-28 12:10:00,423: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:10:00,424: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:10' -fill white -annotate 0x0+60+110 '12:10' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:10:00,424: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:10' -fill white -annotate 0x0+60+110 '12:10' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-a16b818e7a3b9ed5e6946ec0388425ca.jpg'
+INFO: 2020-08-28 12:10:00,683: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:10:00,684: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:11:00,489: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:11:00,490: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587860.4901054'
+INFO: 2020-08-28 12:11:00,491: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:11:00,492: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:11' -fill white -annotate 0x0+60+110 '12:11' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:11:00,492: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:11' -fill white -annotate 0x0+60+110 '12:11' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-dfc7d947491466de635fc17446957f40.jpg'
+INFO: 2020-08-28 12:11:00,761: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:11:00,763: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:11:06,937: save_locally() 'Download complete'
+INFO: 2020-08-28 12:11:06,938: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:11:06,940: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:11:06,941: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:11:06,941: prepare_thread() 'Preparing some images'
+WARNING: 2020-08-28 12:11:07,613: find_images() 'Too few images found: 0 out of 100'
+INFO: 2020-08-28 12:11:07,621: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:11:07,943: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:11:07,943: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:11:07,943: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:11:07,943: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:11:07,943: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:11:07,943: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:11:07,944: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:11:07,944: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:11:07,944: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:11:07,944: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 12:11:09,622: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-08-28 12:11:12,973: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b68f5d610>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68f5d610>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68f5d610>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:11:13,975: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:11:13,976: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:11:13,976: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:11:13,976: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:11:13,976: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:11:13,976: download_one() 'NASA Astro Pic of the Day: Queue size: 725'
+INFO: 2020-08-28 12:11:13,976: download_one() 'NASA Astro Pic of the Day: Queue populated with 725 URLs'
+INFO: 2020-08-28 12:11:13,976: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap200401.html'
+INFO: 2020-08-28 12:11:18,232: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/2004/PotatoPod_Sutton_5332.jpg'
+INFO: 2020-08-28 12:11:18,232: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap200401.html'
+INFO: 2020-08-28 12:11:18,232: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/2004/PotatoPod_Sutton_5332.jpg'
+INFO: 2020-08-28 12:11:18,232: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/PotatoPod_Sutton_5332.jpg'
+INFO: 2020-08-28 12:12:00,556: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:12:00,557: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587920.5572257'
+INFO: 2020-08-28 12:12:00,558: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:12:00,558: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:12' -fill white -annotate 0x0+60+110 '12:12' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:12:00,559: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:12' -fill white -annotate 0x0+60+110 '12:12' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-f52d1db7e69a24e6c3e99aad073d76f5.jpg'
+INFO: 2020-08-28 12:12:00,776: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:12:00,777: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:13:00,622: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:13:00,623: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598587980.623472'
+INFO: 2020-08-28 12:13:00,625: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:13:00,625: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:13' -fill white -annotate 0x0+60+110 '12:13' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:13:00,626: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:13' -fill white -annotate 0x0+60+110 '12:13' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-cbf068996a625089f0b2468611aa1e5c.jpg'
+INFO: 2020-08-28 12:13:00,879: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:13:00,880: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:14:00,689: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:14:00,690: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588040.6901128'
+INFO: 2020-08-28 12:14:00,692: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:14:00,692: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:14' -fill white -annotate 0x0+60+110 '12:14' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:14:00,692: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:14' -fill white -annotate 0x0+60+110 '12:14' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-75cbc6fe5165e760b108f8a1b055bf51.jpg'
+INFO: 2020-08-28 12:14:00,909: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:14:00,910: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:14:58,052: save_locally() 'Download complete'
+INFO: 2020-08-28 12:14:58,053: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:14:58,057: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:14:58,059: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:14:58,060: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:14:58,407: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:14:59,062: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:14:59,062: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:14:59,063: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:14:59,063: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:14:59,063: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:14:59,063: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:14:59,063: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:14:59,063: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:14:59,063: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:14:59,064: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 12:15:00,407: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:15:00,753: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:15:00,754: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588100.7544024'
+INFO: 2020-08-28 12:15:00,755: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:15:00,756: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:15' -fill white -annotate 0x0+60+110 '12:15' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:15:00,756: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:15' -fill white -annotate 0x0+60+110 '12:15' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-0d905513eddb91f0385f1445cbacf6a0.jpg'
+INFO: 2020-08-28 12:15:00,976: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:15:00,977: list_files() 'More than 1 files in the folders, stop listing'
+ERROR: 2020-08-28 12:15:04,090: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b68f71b80>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68f71b80>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68f71b80>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:15:05,092: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:15:05,092: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:15:05,093: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:15:05,093: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:15:05,093: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:15:05,093: download_one() 'NASA Astro Pic of the Day: Queue size: 724'
+INFO: 2020-08-28 12:15:05,093: download_one() 'NASA Astro Pic of the Day: Queue populated with 724 URLs'
+INFO: 2020-08-28 12:15:05,093: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap181127.html'
+INFO: 2020-08-28 12:15:09,063: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/1811/FirstLight_InSight_1024_annotated.jpg'
+INFO: 2020-08-28 12:15:09,063: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap181127.html'
+INFO: 2020-08-28 12:15:09,063: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/1811/FirstLight_InSight_1024_annotated.jpg'
+INFO: 2020-08-28 12:15:09,063: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/FirstLight_InSight_1024_annotated.jpg'
+INFO: 2020-08-28 12:15:26,548: save_locally() 'Download complete'
+INFO: 2020-08-28 12:15:26,549: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:15:26,552: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:15:26,554: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:15:26,554: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:15:26,966: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:15:27,556: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:15:27,556: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:15:27,557: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:15:27,557: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:15:27,557: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:15:27,557: download_one() 'NASA Astro Pic of the Day: Queue size: 723'
+INFO: 2020-08-28 12:15:27,557: download_one() 'NASA Astro Pic of the Day: Queue populated with 723 URLs'
+INFO: 2020-08-28 12:15:27,557: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap191020.html'
+INFO: 2020-08-28 12:15:28,967: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:15:30,802: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/1910/PIA20727PlutoNight.jpg'
+INFO: 2020-08-28 12:15:30,802: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap191020.html'
+INFO: 2020-08-28 12:15:30,802: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/1910/PIA20727PlutoNight.jpg'
+INFO: 2020-08-28 12:15:30,802: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/PIA20727PlutoNight.jpg'
+INFO: 2020-08-28 12:16:00,819: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:16:00,820: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588160.8206878'
+INFO: 2020-08-28 12:16:00,822: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:16:00,823: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:16' -fill white -annotate 0x0+60+110 '12:16' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:16:00,823: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:16' -fill white -annotate 0x0+60+110 '12:16' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-989f099db17caf7ed64f90aab09ecb25.jpg'
+INFO: 2020-08-28 12:16:01,140: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:16:01,142: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:16:15,345: save_locally() 'Download complete'
+INFO: 2020-08-28 12:16:15,346: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:16:15,350: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:16:15,352: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:16:15,353: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:16:15,897: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:16:16,355: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:16:16,355: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:16:16,355: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:16:16,356: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:16:16,356: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:16:16,356: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:16:16,356: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:16:16,356: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:16:16,356: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:16:16,356: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 12:16:17,898: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-08-28 12:16:21,385: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b68f2e3a0>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68f2e3a0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68f2e3a0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:16:22,388: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:16:22,389: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:16:22,389: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:16:22,389: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:16:22,389: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:16:22,389: download_one() 'NASA Astro Pic of the Day: Queue size: 722'
+INFO: 2020-08-28 12:16:22,389: download_one() 'NASA Astro Pic of the Day: Queue populated with 722 URLs'
+INFO: 2020-08-28 12:16:22,389: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap200205.html'
+INFO: 2020-08-28 12:16:26,297: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/2002/LunarParallaxC_PonEtal_2048_annotated.jpg'
+INFO: 2020-08-28 12:16:26,297: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap200205.html'
+INFO: 2020-08-28 12:16:26,297: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/2002/LunarParallaxC_PonEtal_2048_annotated.jpg'
+INFO: 2020-08-28 12:16:26,297: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/LunarParallaxC_PonEtal_2048_annotated.jpg'
+INFO: 2020-08-28 12:17:00,886: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:17:00,887: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588220.8873162'
+INFO: 2020-08-28 12:17:00,889: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:17:00,889: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:17' -fill white -annotate 0x0+60+110 '12:17' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:17:00,889: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:17' -fill white -annotate 0x0+60+110 '12:17' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-fab31303748f32dc303a4ae91652ee76.jpg'
+INFO: 2020-08-28 12:17:01,157: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:17:01,158: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:18:00,954: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:18:00,955: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588280.9555783'
+INFO: 2020-08-28 12:18:00,957: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:18:00,958: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:18' -fill white -annotate 0x0+60+110 '12:18' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:18:00,958: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:18' -fill white -annotate 0x0+60+110 '12:18' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-8e360b35c5b877c4d2b8d773bb506a70.jpg'
+INFO: 2020-08-28 12:18:01,204: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:18:01,206: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:19:00,018: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:19:00,019: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588340.0192742'
+INFO: 2020-08-28 12:19:00,019: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:19:00,020: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:19' -fill white -annotate 0x0+60+110 '12:19' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:19:00,020: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:19' -fill white -annotate 0x0+60+110 '12:19' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-a1df41d472f9e1df66b142ebdbcd4b60.jpg'
+INFO: 2020-08-28 12:19:00,241: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:19:00,242: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:19:05,070: save_locally() 'Download complete'
+INFO: 2020-08-28 12:19:05,071: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:19:05,074: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:19:05,077: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:19:05,078: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:19:05,437: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:19:06,080: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:19:06,080: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:19:06,080: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:19:06,080: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:19:06,080: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:19:06,080: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:19:06,080: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:19:06,081: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:19:06,081: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:19:06,081: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 12:19:07,437: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-08-28 12:19:11,107: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b68f41190>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68f41190>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68f41190>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:19:12,118: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:19:12,118: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:19:12,119: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:19:12,119: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:19:12,119: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:19:12,119: download_one() 'NASA Astro Pic of the Day: Queue size: 721'
+INFO: 2020-08-28 12:19:12,119: download_one() 'NASA Astro Pic of the Day: Queue populated with 721 URLs'
+INFO: 2020-08-28 12:19:12,119: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap180926.html'
+INFO: 2020-08-28 12:19:15,828: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/1809/sunspectrum_noao_3071.jpg'
+INFO: 2020-08-28 12:19:15,829: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap180926.html'
+INFO: 2020-08-28 12:19:15,829: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/1809/sunspectrum_noao_3071.jpg'
+INFO: 2020-08-28 12:19:15,829: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/sunspectrum_noao_3071.jpg'
+INFO: 2020-08-28 12:20:00,084: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:20:00,085: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588400.0850468'
+INFO: 2020-08-28 12:20:00,086: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:20:00,087: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:20' -fill white -annotate 0x0+60+110 '12:20' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:20:00,087: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:20' -fill white -annotate 0x0+60+110 '12:20' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-f6fe1056ce9b61c3708343b4f464c076.jpg'
+INFO: 2020-08-28 12:20:00,376: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:20:00,377: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:20:38,460: save_locally() 'Download complete'
+INFO: 2020-08-28 12:20:38,460: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:20:38,461: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:20:38,462: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:20:38,462: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:20:38,871: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:20:39,463: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:20:39,463: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:20:39,463: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:20:39,463: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:20:39,464: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:20:39,464: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:20:39,464: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:20:39,464: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:20:39,464: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:20:39,464: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+INFO: 2020-08-28 12:20:40,871: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-08-28 12:20:44,490: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b68ee3250>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68ee3250>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68ee3250>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:20:45,494: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:20:45,494: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:45,495: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:20:45,495: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:45,495: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:20:45,495: download_one() 'NASA Astro Pic of the Day: Queue size: 720'
+INFO: 2020-08-28 12:20:45,495: download_one() 'NASA Astro Pic of the Day: Queue populated with 720 URLs'
+INFO: 2020-08-28 12:20:45,495: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap200412.html'
+INFO: 2020-08-28 12:20:48,181: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/2004/horseheadir_hubble_1225.jpg'
+INFO: 2020-08-28 12:20:48,181: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap200412.html'
+INFO: 2020-08-28 12:20:48,181: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/2004/horseheadir_hubble_1225.jpg'
+INFO: 2020-08-28 12:20:48,181: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/horseheadir_hubble_1225.jpg'
+INFO: 2020-08-28 12:20:48,182: save_locally() 'File already exists, skip downloading'
+INFO: 2020-08-28 12:20:49,183: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-08-28 12:20:49,183: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:49,183: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-08-28 12:20:49,183: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:49,184: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-08-28 12:20:49,184: download_one() 'Bing: Queue size: 0'
+INFO: 2020-08-28 12:20:49,184: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-08-28 12:20:49,185: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:49,186: download_one() 'Bing: Filling queue'
+INFO: 2020-08-28 12:20:49,957: download_one() 'Bing: Queue populated with 7 URLs'
+INFO: 2020-08-28 12:20:49,958: save_locally() 'Origin URL: https://www.bing.com/search?q=%E4%BC%8A%E5%A4%AB%E5%9F%8E%E5%A0%A1&form=hpcapt&mkt=zh-cn'
+INFO: 2020-08-28 12:20:49,958: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.MonteCristo_ZH-CN4343811693_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-08-28 12:20:49,958: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Bing/OHR.MonteCristo_ZH-CN4343811693_1920x1080.jpg'
+INFO: 2020-08-28 12:20:49,958: save_locally() 'File already exists, skip downloading'
+INFO: 2020-08-28 12:20:50,960: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-08-28 12:20:50,960: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:50,960: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-08-28 12:20:50,960: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:50,960: download_one() 'Chrome OS Wallpapers: Downloading an image, config: None'
+INFO: 2020-08-28 12:20:50,960: download_one() 'Chrome OS Wallpapers: Queue size: 0'
+INFO: 2020-08-28 12:20:50,960: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-08-28 12:20:50,960: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:50,960: download_one() 'Chrome OS Wallpapers: Filling queue'
+ERROR: 2020-08-28 12:20:54,855: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py", line 54, in fill_queue
+    manifest = Util.fetch_json(MANIFEST_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://storage.googleapis.com/chromeos-wallpaper-public/manifest_en.json
+INFO: 2020-08-28 12:20:55,858: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-08-28 12:20:55,858: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:55,858: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-08-28 12:20:55,858: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:55,859: download_one() 'Desktoppr.co: Downloading an image, config: None'
+INFO: 2020-08-28 12:20:55,859: download_one() 'Desktoppr.co: Queue size: 0'
+INFO: 2020-08-28 12:20:55,859: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-08-28 12:20:55,859: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-08-28 12:20:55,859: download_one() 'Desktoppr.co: Filling queue'
+INFO: 2020-08-28 12:21:00,149: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:21:00,149: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588460.1498322'
+INFO: 2020-08-28 12:21:00,151: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:21:00,151: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:21' -fill white -annotate 0x0+60+110 '12:21' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:21:00,152: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:21' -fill white -annotate 0x0+60+110 '12:21' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-9eb1eccadcf1896deb14f032852ec875.jpg'
+INFO: 2020-08-28 12:21:00,419: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:00,420: list_files() 'More than 1 files in the folders, stop listing'
+ERROR: 2020-08-28 12:21:00,884: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 164, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f3b68eddbb0>, 'Connection to api.desktoppr.co timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Max retries exceeded with url: /1/wallpapers/random (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3b68eddbb0>, 'Connection to api.desktoppr.co timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py", line 57, in fill_queue
+    response = Util.fetch_json("https://api.desktoppr.co/1/wallpapers/random", verify=False)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.desktoppr.co', port=443): Max retries exceeded with url: /1/wallpapers/random (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3b68eddbb0>, 'Connection to api.desktoppr.co timed out. (connect timeout=5)'))
+INFO: 2020-08-28 12:21:01,887: get_throttling() 'Unsplash.com: parsing serverside options'
+INFO: 2020-08-28 12:21:01,888: get_throttling() 'Could not parse Unsplash.com serverside options, using defaults 20, 3'
+INFO: 2020-08-28 12:21:01,888: get_throttling() 'Unsplash.com: parsing serverside options'
+INFO: 2020-08-28 12:21:01,888: get_throttling() 'Could not parse Unsplash.com serverside options, using defaults 20, 3'
+INFO: 2020-08-28 12:21:01,888: download_one() 'Unsplash.com: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:01,888: download_one() 'Unsplash.com: Queue size: 0'
+INFO: 2020-08-28 12:21:01,888: get_throttling() 'Unsplash.com: parsing serverside options'
+INFO: 2020-08-28 12:21:01,888: get_throttling() 'Could not parse Unsplash.com serverside options, using defaults 20, 3'
+INFO: 2020-08-28 12:21:01,889: download_one() 'Unsplash.com: Filling queue'
+INFO: 2020-08-28 12:21:01,889: fill_queue() 'Filling Unsplash queue from https://api.unsplash.com/photos/random?count=30&client_id=072e5048dfcb73a8d9ad59fcf402471518ff8df725df462b0c4fa665f466515a&orientation=landscape'
+ERROR: 2020-08-28 12:21:10,598: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 362, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.8/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.8/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.8/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1106: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.8/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 335, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.unsplash.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py", line 83, in fill_queue
+    r = Util.request(url)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.unsplash.com', port=443): Read timed out. (read timeout=5)
+INFO: 2020-08-28 12:21:11,603: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:11,603: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:11,603: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:11,603: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:11,604: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:11,604: download_one() 'Earth View: Queue size: 0'
+INFO: 2020-08-28 12:21:11,604: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:11,604: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:11,604: download_one() 'Earth View: Filling queue'
+INFO: 2020-08-28 12:21:17,777: download_one() 'Earth View: Queue populated with 1511 URLs'
+INFO: 2020-08-28 12:21:17,777: save_locally() 'Origin URL: https://earthview.withgoogle.com/1712'
+INFO: 2020-08-28 12:21:17,777: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/1712.jpg'
+INFO: 2020-08-28 12:21:17,777: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Giza, Egypt (ID-1712).jpg'
+INFO: 2020-08-28 12:21:18,631: save_locally() 'Download complete'
+INFO: 2020-08-28 12:21:18,631: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:18,634: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:21:18,699: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:21:18,699: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:21:19,070: prepare_thread() 'After search prepared buffer contains 5 images'
+INFO: 2020-08-28 12:21:19,701: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:19,701: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:19,701: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:19,701: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:19,701: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:19,701: download_one() 'Earth View: Queue size: 1510'
+INFO: 2020-08-28 12:21:19,701: download_one() 'Earth View: Queue populated with 1510 URLs'
+INFO: 2020-08-28 12:21:19,701: save_locally() 'Origin URL: https://earthview.withgoogle.com/2284'
+INFO: 2020-08-28 12:21:19,701: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/2284.jpg'
+INFO: 2020-08-28 12:21:19,702: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Hanapepe, United States (ID-2284).jpg'
+INFO: 2020-08-28 12:21:20,326: save_locally() 'Download complete'
+INFO: 2020-08-28 12:21:20,327: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:20,328: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:21:20,388: download_one_from() 'Adding downloaded file /home/zyw/.config/variety/Downloaded/Earth View/Hanapepe, United States (ID-2284).jpg to unseen_downloads'
+INFO: 2020-08-28 12:21:21,071: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:21:21,390: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:21,390: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:21,390: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:21,390: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:21,390: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:21,390: download_one() 'Earth View: Queue size: 1509'
+INFO: 2020-08-28 12:21:21,390: download_one() 'Earth View: Queue populated with 1509 URLs'
+INFO: 2020-08-28 12:21:21,391: save_locally() 'Origin URL: https://earthview.withgoogle.com/6290'
+INFO: 2020-08-28 12:21:21,391: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/6290.jpg'
+INFO: 2020-08-28 12:21:21,391: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Qesm Siwah, Egypt (ID-6290).jpg'
+INFO: 2020-08-28 12:21:21,842: save_locally() 'Download complete'
+INFO: 2020-08-28 12:21:21,842: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:21,845: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:21:21,849: prepare_thread() 'Prepared buffer contains 5 images'
+INFO: 2020-08-28 12:21:21,849: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:21:22,287: prepare_thread() 'After search prepared buffer contains 7 images'
+INFO: 2020-08-28 12:21:22,851: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:22,851: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:22,851: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:22,851: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:22,851: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:22,851: download_one() 'Earth View: Queue size: 1508'
+INFO: 2020-08-28 12:21:22,851: download_one() 'Earth View: Queue populated with 1508 URLs'
+INFO: 2020-08-28 12:21:22,851: save_locally() 'Origin URL: https://earthview.withgoogle.com/2316'
+INFO: 2020-08-28 12:21:22,851: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/2316.jpg'
+INFO: 2020-08-28 12:21:22,851: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Ngari, China (ID-2316).jpg'
+INFO: 2020-08-28 12:21:23,314: save_locally() 'Download complete'
+INFO: 2020-08-28 12:21:23,314: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:23,315: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:21:23,366: prepare_thread() 'Prepared buffer contains 7 images'
+INFO: 2020-08-28 12:21:23,366: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:21:23,730: prepare_thread() 'After search prepared buffer contains 7 images'
+INFO: 2020-08-28 12:21:24,288: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:21:24,367: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:24,368: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:24,368: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:24,368: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:24,368: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:24,368: download_one() 'Earth View: Queue size: 1507'
+INFO: 2020-08-28 12:21:24,368: download_one() 'Earth View: Queue populated with 1507 URLs'
+INFO: 2020-08-28 12:21:24,368: save_locally() 'Origin URL: https://earthview.withgoogle.com/5951'
+INFO: 2020-08-28 12:21:24,368: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/5951.jpg'
+INFO: 2020-08-28 12:21:24,368: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Syrdariya District, Kazakhstan (ID-5951).jpg'
+INFO: 2020-08-28 12:21:24,899: save_locally() 'Download complete'
+INFO: 2020-08-28 12:21:24,900: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:24,901: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:21:24,904: prepare_thread() 'Prepared buffer contains 7 images'
+INFO: 2020-08-28 12:21:24,904: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:21:25,256: prepare_thread() 'After search prepared buffer contains 8 images'
+INFO: 2020-08-28 12:21:25,730: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:21:25,906: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:25,906: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:25,906: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:25,906: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:25,906: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:25,907: download_one() 'Earth View: Queue size: 1506'
+INFO: 2020-08-28 12:21:25,907: download_one() 'Earth View: Queue populated with 1506 URLs'
+INFO: 2020-08-28 12:21:25,907: save_locally() 'Origin URL: https://earthview.withgoogle.com/1195'
+INFO: 2020-08-28 12:21:25,907: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/1195.jpg'
+INFO: 2020-08-28 12:21:25,907: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Staropoltavsky District, Russia (ID-1195).jpg'
+INFO: 2020-08-28 12:21:26,669: save_locally() 'Download complete'
+INFO: 2020-08-28 12:21:26,669: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:26,671: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:21:26,729: prepare_thread() 'Prepared buffer contains 8 images'
+INFO: 2020-08-28 12:21:26,729: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:21:27,067: prepare_thread() 'After search prepared buffer contains 8 images'
+INFO: 2020-08-28 12:21:27,257: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:21:27,730: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:27,730: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:27,730: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:27,730: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:27,730: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:27,730: download_one() 'Earth View: Queue size: 1505'
+INFO: 2020-08-28 12:21:27,730: download_one() 'Earth View: Queue populated with 1505 URLs'
+INFO: 2020-08-28 12:21:27,730: save_locally() 'Origin URL: https://earthview.withgoogle.com/1032'
+INFO: 2020-08-28 12:21:27,730: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/1032.jpg'
+INFO: 2020-08-28 12:21:27,730: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Tuamotus Islands, French Polynesia (ID-1032).jpg'
+INFO: 2020-08-28 12:21:28,312: save_locally() 'Download complete'
+INFO: 2020-08-28 12:21:28,313: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:28,319: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:21:28,388: prepare_thread() 'Prepared buffer contains 8 images'
+INFO: 2020-08-28 12:21:28,388: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:21:28,804: prepare_thread() 'After search prepared buffer contains 8 images'
+INFO: 2020-08-28 12:21:29,067: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:21:29,390: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:29,390: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:29,390: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:29,390: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:29,390: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:29,390: download_one() 'Earth View: Queue size: 1504'
+INFO: 2020-08-28 12:21:29,390: download_one() 'Earth View: Queue populated with 1504 URLs'
+INFO: 2020-08-28 12:21:29,391: save_locally() 'Origin URL: https://earthview.withgoogle.com/1247'
+INFO: 2020-08-28 12:21:29,391: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/1247.jpg'
+INFO: 2020-08-28 12:21:29,391: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Al Fasher, Sudan (ID-1247).jpg'
+INFO: 2020-08-28 12:21:30,035: save_locally() 'Download complete'
+INFO: 2020-08-28 12:21:30,035: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:21:30,037: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:21:30,100: prepare_thread() 'Prepared buffer contains 8 images'
+INFO: 2020-08-28 12:21:30,100: prepare_thread() 'Preparing some images'
+INFO: 2020-08-28 12:21:30,419: prepare_thread() 'After search prepared buffer contains 8 images'
+INFO: 2020-08-28 12:21:30,804: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:21:31,102: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:31,102: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:31,102: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2020-08-28 12:21:31,102: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2020-08-28 12:21:31,102: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2020-08-28 12:21:31,102: download_one() 'Earth View: Queue size: 1503'
+INFO: 2020-08-28 12:21:31,102: download_one() 'Earth View: Queue populated with 1503 URLs'
+INFO: 2020-08-28 12:21:31,103: save_locally() 'Origin URL: https://earthview.withgoogle.com/1779'
+INFO: 2020-08-28 12:21:31,103: save_locally() 'Image URL: https://www.gstatic.com/prettyearth/assets/full/1779.jpg'
+INFO: 2020-08-28 12:21:31,103: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/Earth View/Dubai, United Arab Emirates (ID-1779).jpg'
+INFO: 2020-08-28 12:21:31,103: save_locally() 'File already exists, skip downloading'
+INFO: 2020-08-28 12:21:32,419: trigger_download() 'Triggering download thread to check if download needed'
+INFO: 2020-08-28 12:22:00,211: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:22:00,211: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588520.2113917'
+INFO: 2020-08-28 12:22:00,211: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:22:00,212: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:22' -fill white -annotate 0x0+60+110 '12:22' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:22:00,212: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:22' -fill white -annotate 0x0+60+110 '12:22' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-ff2ddba655b6ecb11043cfbb33e05520.jpg'
+INFO: 2020-08-28 12:22:00,458: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:22:00,460: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:23:00,274: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:23:00,275: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588580.275074'
+INFO: 2020-08-28 12:23:00,276: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:23:00,276: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:23' -fill white -annotate 0x0+60+110 '12:23' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:23:00,277: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:23' -fill white -annotate 0x0+60+110 '12:23' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-75d9a5f26ef69cc9196906d585d7245e.jpg'
+INFO: 2020-08-28 12:23:00,543: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:23:00,545: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:24:00,339: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:24:00,340: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588640.3400745'
+INFO: 2020-08-28 12:24:00,341: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:24:00,342: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:24' -fill white -annotate 0x0+60+110 '12:24' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:24:00,342: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:24' -fill white -annotate 0x0+60+110 '12:24' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-4cc77741bb1a996b362508680dbe235d.jpg'
+INFO: 2020-08-28 12:24:00,608: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:24:00,609: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-08-28 12:24:32,420: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:24:32,420: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:24:32,420: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:24:32,420: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:24:32,420: download_one() 'Flickr: Downloading an image, config: user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-08-28 12:24:32,420: download_one() 'Flickr: Queue size: 0'
+INFO: 2020-08-28 12:24:32,421: get_throttling() 'Flickr: parsing serverside options'
+INFO: 2020-08-28 12:24:32,421: get_throttling() 'Could not parse Flickr serverside options, using defaults 120, 20'
+INFO: 2020-08-28 12:24:32,421: download_one() 'Flickr: Filling queue'
+INFO: 2020-08-28 12:24:32,421: fetch() 'Making flickr API call: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00'
+ERROR: 2020-08-28 12:24:37,445: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.8/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.8/site-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3b68ee3550>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 726, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68ee3550>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 158, in fill_queue
+    resp = FlickrDownloader.fetch(call)
+  File "/usr/lib/python3.8/site-packages/variety/FlickrDownloader.py", line 73, in fetch
+    return Util.fetch_json(call)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 612, in request
+    r = requests.request(
+  File "/usr/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.8/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.flickr.com', port=443): Max retries exceeded with url: /services/rest/?method=flickr.photos.search&api_key=0553a848c09bcfd21d3a984d9408c04e&per_page=500&tag_mode=all&format=json&nojsoncallback=1&user_id=93647178@N00 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3b68ee3550>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2020-08-28 12:24:38,449: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:24:38,449: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:24:38,449: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2020-08-28 12:24:38,450: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2020-08-28 12:24:38,450: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2020-08-28 12:24:38,450: download_one() 'NASA Astro Pic of the Day: Queue size: 719'
+INFO: 2020-08-28 12:24:38,450: download_one() 'NASA Astro Pic of the Day: Queue populated with 719 URLs'
+INFO: 2020-08-28 12:24:38,450: download_queue_item() 'APOD URL: http://apod.nasa.gov/apod/ap191227.html'
+INFO: 2020-08-28 12:24:42,655: download_queue_item() 'Image URL: http://apod.nasa.gov/apod/image/1912/PartialSolar_Ghohroodi_1312.jpg'
+INFO: 2020-08-28 12:24:42,656: save_locally() 'Origin URL: http://apod.nasa.gov/apod/ap191227.html'
+INFO: 2020-08-28 12:24:42,656: save_locally() 'Image URL: http://apod.nasa.gov/apod/image/1912/PartialSolar_Ghohroodi_1312.jpg'
+INFO: 2020-08-28 12:24:42,656: save_locally() 'Local path: /home/zyw/.config/variety/Downloaded/nasa_apod/PartialSolar_Ghohroodi_1312.jpg'
+INFO: 2020-08-28 12:25:00,404: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2020-08-28 12:25:00,404: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/glowing_lake.jpg, time: 1598588700.4047391'
+INFO: 2020-08-28 12:25:00,405: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1680, h:1050, ratio:1.600000, iw:1920, ih:1200, scw:1680, sch:1050, ho:0, vo:0'
+INFO: 2020-08-28 12:25:00,405: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:25' -fill white -annotate 0x0+60+110 '12:25' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28''
+INFO: 2020-08-28 12:25:00,405: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/backgrounds/glowing_lake.jpg -scale 1680x1050^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:70'` -pointsize 70 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '12:25' -fill white -annotate 0x0+60+110 '12:25' -font `fc-match -f '%{file[0]}' 'Ubuntu Condensed:,:30'` -pointsize 30 -fill '#00000044' -annotate 0x0+58+58 'Friday, August 28' -fill white -annotate 0x0+60+60 'Friday, August 28' /home/zyw/.config/variety/wallpaper/wallpaper-clock-9195617084bb7c30e26bd8774129e53b.jpg'
+INFO: 2020-08-28 12:25:00,636: update_indicator() 'Setting file info to: /usr/share/backgrounds/glowing_lake.jpg'
+INFO: 2020-08-28 12:25:00,637: list_files() 'More than 1 files in the folders, stop listing'

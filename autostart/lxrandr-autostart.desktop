@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=LXRandR 自动启动
+Comment=以 LXRandR 中完成的设置启动 xrandr
+Exec=sh -c 'xrandr --output HDMI-1-1 --auto --output eDP1 --off'
+OnlyShowIn=LXDE

@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"https://p1.music.126.net":{"supports_spdy":true}},{"https://fonts.googleapis.com":{"supports_spdy":true}},{"https://p2.music.126.net":{"supports_spdy":true}},{"https://fonts.gstatic.com":{"supports_spdy":true}},{"https://music.163.com":{"supports_spdy":true}}],"version":5}}}
