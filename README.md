@@ -1,0 +1,8 @@
+- Linux .config 文件 包括
+	- polybar
+	- rofi
+	- vcore
+	- fish
+	- albert
+	- ranger
+	- autostart
