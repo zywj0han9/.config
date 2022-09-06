@@ -1,4 +1,0 @@
-environment:
-  electron:
-    version: null
-  system: false
