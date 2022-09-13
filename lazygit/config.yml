@@ -1,0 +1,20 @@
+keybinding:
+  universsal:
+    quit: 'q'
+    return: '<esc>'
+    prevItem: '<up>'
+    nextItem: '<down>'
+    togglePanel: '<tab>'
+    gotoTop: '<'
+    gotoBottom: '>'
+    prevItem-alt: 'i'
+    nextItem-alt: 'k'
+    select: '<space>'
+    refresh: 'R'
+    undo: 'B'
+    nextTab: ']'
+    prevTab: '['
+  status:
+    checkForUpdate: 'u'
+    recentRepos: '<enter>'
+
