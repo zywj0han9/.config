@@ -1,1 +1,1 @@
-/home/zyw/.local/share/omf/themes/emoji-powerline/fish_prompt.fish
+/home/zyw/.local/share/omf/themes/edan/fish_prompt.fish
