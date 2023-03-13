@@ -1,0 +1,17 @@
+Visual Studio Code - Insiders (1.77.0-insider, undefined, desktop)
+Jupyter Extension Version: 2023.2.1200692131.
+Python Extension Version: 2023.4.1.
+No workspace folder opened.
+info 15:48:51.757: LSP Notebooks experiment is enabled
+info 15:48:51.809: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 15:48:51.818: Process Execution: > jupyter lab --version
+> jupyter lab --version
+warn 15:48:52.575: Failed to get activated env vars with python /bin/python in 33ms
+info 15:48:52.586: Process Execution: > /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_SITE);print("USER_BASE_VALUE");"
+> /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_SITE);print("USER_BASE_VALUE");"
+info 15:48:52.625: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 15:52:01.091: Shutting down notebooks for c0998108-9e1c-4dcf-adb0-e000383e1861
+info 15:52:01.091: Disposing HostJupyterExecution 0ed6b83b-aec9-498f-b588-d703eed2e8d7
+info 15:52:01.091: Disposing HostJupyterExecution 0ed6b83b-aec9-498f-b588-d703eed2e8d7

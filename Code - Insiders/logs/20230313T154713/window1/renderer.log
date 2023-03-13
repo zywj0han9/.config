@@ -1,0 +1,14 @@
+2023-03-13 15:47:14.863 [info] Electron sandbox mode is enabled!
+2023-03-13 15:47:14.881 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-13 15:47:14.882 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-13 15:47:14.882 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-13 15:47:15.452 [info] Started initializing default profile extensions in extensions installation folder. file:///home/zyw/.vscode-insiders/extensions
+2023-03-13 15:47:15.835 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/zyw/.vscode-insiders/extensions
+2023-03-13 15:47:18.639 [info] [perf] Render performance baseline is 37ms
+2023-03-13 15:48:23.980 [error] [Extension Host] (node:4036) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2023-03-13 15:48:23.981 [error] [Extension Host] (node:4036) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency
+2023-03-13 15:49:15.286 [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-03-13 15:50:23.798 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-13 15:50:23.977 [error] [Extension Host] /bin/sh:行1: hostname：未找到命令
+2023-03-13 15:50:30.125 [error] [Extension Host] (node:4036) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.

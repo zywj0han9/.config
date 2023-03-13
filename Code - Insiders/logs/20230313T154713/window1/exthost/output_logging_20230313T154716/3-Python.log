@@ -1,0 +1,10 @@
+Experiment 'pythonPromptNewToolsExt' is active
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+> conda info --json
+> /bin/python -I ~/.vscode-insiders/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode-insiders/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+> /sbin/python -I ~/.vscode-insiders/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode-insiders/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python -I ~/.vscode-insiders/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode-insiders/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python -I ~/.vscode-insiders/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode-insiders/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python
+Starting Pylance language server.

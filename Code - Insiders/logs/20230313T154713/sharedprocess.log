@@ -1,0 +1,315 @@
+2023-03-13 15:47:15.762 [info] Started initializing default profile extensions in extensions installation folder. file:///home/zyw/.vscode-insiders/extensions
+2023-03-13 15:47:15.892 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/zyw/.vscode-insiders/extensions Unable to create file 'vscode-userdata:/home/zyw/.vscode-insiders/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-03-13 15:47:15.892 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/zyw/.vscode-insiders/extensions
+2023-03-13 15:48:09.704 [info] Getting Manifest... uloco.theme-bluloco-dark
+2023-03-13 15:48:09.718 [info] Installing extension: uloco.theme-bluloco-dark
+2023-03-13 15:48:10.997 [warning] Extension signature verification: uloco.theme-bluloco-dark. Verification status: UnknownError.
+2023-03-13 15:48:11.086 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.b85b3219-3f9f-42b1-bf4b-d8cdc1d5626f: uloco.theme-bluloco-dark
+2023-03-13 15:48:11.089 [info] Renamed to /home/zyw/.vscode-insiders/extensions/uloco.theme-bluloco-dark-3.7.4
+2023-03-13 15:48:11.091 [info] Extracting extension completed. uloco.theme-bluloco-dark
+2023-03-13 15:48:11.100 [info] Extension installed successfully: uloco.theme-bluloco-dark
+2023-03-13 15:48:21.420 [info] Getting Manifest... leodevbro.blockman
+2023-03-13 15:48:21.438 [info] Installing extension: leodevbro.blockman
+2023-03-13 15:48:22.578 [warning] Extension signature verification: leodevbro.blockman. Verification status: UnknownError.
+2023-03-13 15:48:23.669 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.7a9f9a63-b443-461c-b552-2ecc60b296af: leodevbro.blockman
+2023-03-13 15:48:23.677 [info] Renamed to /home/zyw/.vscode-insiders/extensions/leodevbro.blockman-1.7.1
+2023-03-13 15:48:23.679 [info] Extracting extension completed. leodevbro.blockman
+2023-03-13 15:48:23.689 [info] Extension installed successfully: leodevbro.blockman
+2023-03-13 15:48:34.987 [info] Getting Manifest... ms-python.python
+2023-03-13 15:48:35.021 [info] Installing extension: ms-python.python
+2023-03-13 15:48:35.913 [info] Getting Manifest... ms-toolsai.jupyter
+2023-03-13 15:48:36.222 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-03-13 15:48:36.254 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-03-13 15:48:36.278 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-03-13 15:48:36.301 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-03-13 15:48:36.324 [info] Getting Manifest... ms-python.vscode-pylance
+2023-03-13 15:48:36.426 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-03-13 15:48:36.426 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-03-13 15:48:36.426 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-03-13 15:48:36.427 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-03-13 15:48:36.427 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-03-13 15:48:36.427 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-03-13 15:48:37.210 [warning] Extension signature verification: ms-toolsai.jupyter-keymap. Verification status: UnknownError.
+2023-03-13 15:48:37.229 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.52d61092-ba03-41b5-9976-e030e41582a0: ms-toolsai.jupyter-keymap
+2023-03-13 15:48:37.232 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-toolsai.jupyter-keymap-1.1.0
+2023-03-13 15:48:37.233 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-03-13 15:48:37.802 [warning] Extension signature verification: ms-toolsai.vscode-jupyter-cell-tags. Verification status: UnknownError.
+2023-03-13 15:48:37.815 [warning] Extension signature verification: ms-toolsai.vscode-jupyter-slideshow. Verification status: UnknownError.
+2023-03-13 15:48:37.849 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.33a98914-24cf-44df-be24-10c1403c3142: ms-toolsai.vscode-jupyter-slideshow
+2023-03-13 15:48:37.852 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.087a8507-339b-4fb3-b8e5-25d5ef473e88: ms-toolsai.vscode-jupyter-cell-tags
+2023-03-13 15:48:37.852 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-03-13 15:48:37.855 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-03-13 15:48:37.855 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6
+2023-03-13 15:48:37.858 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-03-13 15:48:40.243 [warning] Extension signature verification: ms-toolsai.jupyter-renderers. Verification status: UnknownError.
+2023-03-13 15:48:40.675 [warning] Extension signature verification: ms-python.python. Verification status: UnknownError.
+2023-03-13 15:48:40.801 [warning] Extension signature verification: ms-toolsai.jupyter. Verification status: UnknownError.
+2023-03-13 15:48:40.910 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.81d0bab5-5bf4-4b81-962c-ace593534425: ms-toolsai.jupyter-renderers
+2023-03-13 15:48:40.918 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-toolsai.jupyter-renderers-1.0.15
+2023-03-13 15:48:40.922 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-03-13 15:48:41.443 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.f1c5c533-957b-44f6-8009-87f6549cb444: ms-toolsai.jupyter
+2023-03-13 15:48:41.453 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-toolsai.jupyter-2023.2.1200692131
+2023-03-13 15:48:41.459 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-03-13 15:48:41.555 [info] Getting Manifest... ms-vscode.cpptools
+2023-03-13 15:48:41.564 [info] Installing extension: ms-vscode.cpptools
+2023-03-13 15:48:43.136 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.c2c1212b-0108-4ce8-a63b-688d31796ea4: ms-python.python
+2023-03-13 15:48:43.145 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-python.python-2023.4.1
+2023-03-13 15:48:43.149 [info] Extracting extension completed. ms-python.python
+2023-03-13 15:48:45.731 [info] Getting Manifest... ritwickdey.liveserver
+2023-03-13 15:48:45.739 [info] Installing extension: ritwickdey.liveserver
+2023-03-13 15:48:46.090 [warning] Extension signature verification: ms-python.vscode-pylance. Verification status: UnknownError.
+2023-03-13 15:48:47.195 [info] Getting Manifest... esbenp.prettier-vscode
+2023-03-13 15:48:47.202 [info] Installing extension: esbenp.prettier-vscode
+2023-03-13 15:48:48.040 [warning] Extension signature verification: ritwickdey.liveserver. Verification status: UnknownError.
+2023-03-13 15:48:48.905 [warning] Extension signature verification: esbenp.prettier-vscode. Verification status: UnknownError.
+2023-03-13 15:48:49.098 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.7ec4db81-2356-4473-b73a-bde2040f4c9f: esbenp.prettier-vscode
+2023-03-13 15:48:49.105 [info] Renamed to /home/zyw/.vscode-insiders/extensions/esbenp.prettier-vscode-9.10.4
+2023-03-13 15:48:49.108 [info] Extracting extension completed. esbenp.prettier-vscode
+2023-03-13 15:48:49.118 [info] Extension installed successfully: esbenp.prettier-vscode
+2023-03-13 15:48:50.074 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-03-13 15:48:50.082 [info] Installing extension: visualstudioexptteam.vscodeintellicode
+2023-03-13 15:48:50.205 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.dce7d3f8-c95d-4462-8431-5876e043e4fa: ms-python.vscode-pylance
+2023-03-13 15:48:50.213 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-python.vscode-pylance-2023.3.20
+2023-03-13 15:48:50.216 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-03-13 15:48:50.226 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-03-13 15:48:50.226 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-03-13 15:48:50.226 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-03-13 15:48:50.226 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-03-13 15:48:50.226 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-03-13 15:48:50.226 [info] Extension installed successfully: ms-python.python
+2023-03-13 15:48:50.227 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-03-13 15:48:50.385 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-03-13 15:48:50.538 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples visualstudioexptteam.vscodeintellicode
+2023-03-13 15:48:51.849 [warning] Extension signature verification: visualstudioexptteam.intellicode-api-usage-examples. Verification status: UnknownError.
+2023-03-13 15:48:52.045 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.e75a222c-0d96-4d52-a23e-85640315624a: visualstudioexptteam.intellicode-api-usage-examples
+2023-03-13 15:48:52.051 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.9fb1b5df-09d5-4d90-aff0-b38a9b29b768: ritwickdey.liveserver
+2023-03-13 15:48:52.052 [info] Renamed to /home/zyw/.vscode-insiders/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.7
+2023-03-13 15:48:52.055 [info] Extracting extension completed. visualstudioexptteam.intellicode-api-usage-examples
+2023-03-13 15:48:52.056 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ritwickdey.liveserver-5.7.9
+2023-03-13 15:48:52.058 [info] Extracting extension completed. ritwickdey.liveserver
+2023-03-13 15:48:52.099 [info] Extension installed successfully: ritwickdey.liveserver
+2023-03-13 15:48:53.063 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2023-03-13 15:48:53.075 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+2023-03-13 15:48:53.369 [warning] Extension signature verification: ms-vscode.cpptools. Verification status: UnknownError.
+2023-03-13 15:48:54.027 [warning] Extension signature verification: ms-ceintl.vscode-language-pack-zh-hans. Verification status: UnknownError.
+2023-03-13 15:48:54.160 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.0a2af198-64d3-4f57-84be-09341bdb25d6: ms-ceintl.vscode-language-pack-zh-hans
+2023-03-13 15:48:54.167 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.76.2023030809
+2023-03-13 15:48:54.169 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-zh-hans
+2023-03-13 15:48:54.180 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2023-03-13 15:48:54.295 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
+2023-03-13 15:48:56.063 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.a566858a-1e1f-4339-aade-50d7017f440c: ms-vscode.cpptools
+2023-03-13 15:48:56.074 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-vscode.cpptools-1.14.4-linux-x64
+2023-03-13 15:48:56.087 [info] Extracting extension completed. ms-vscode.cpptools
+2023-03-13 15:48:56.102 [info] Extension installed successfully: ms-vscode.cpptools
+2023-03-13 15:49:01.922 [warning] Extension signature verification: visualstudioexptteam.vscodeintellicode. Verification status: UnknownError.
+2023-03-13 15:49:03.656 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.01b8f549-f413-41eb-8c5a-95407b0cdf65: visualstudioexptteam.vscodeintellicode
+2023-03-13 15:49:03.663 [info] Renamed to /home/zyw/.vscode-insiders/extensions/visualstudioexptteam.vscodeintellicode-1.2.30
+2023-03-13 15:49:03.665 [info] Extracting extension completed. visualstudioexptteam.vscodeintellicode
+2023-03-13 15:49:03.674 [info] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+2023-03-13 15:49:03.674 [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+2023-03-13 15:49:07.790 [info] Getting Manifest... formulahendry.code-runner
+2023-03-13 15:49:07.799 [info] Installing extension: formulahendry.code-runner
+2023-03-13 15:49:08.680 [warning] Extension signature verification: formulahendry.code-runner. Verification status: UnknownError.
+2023-03-13 15:49:08.803 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.b4e9ad51-99b1-42e8-8d51-ea8c5d548f59: formulahendry.code-runner
+2023-03-13 15:49:08.806 [info] Renamed to /home/zyw/.vscode-insiders/extensions/formulahendry.code-runner-0.12.0
+2023-03-13 15:49:08.808 [info] Extracting extension completed. formulahendry.code-runner
+2023-03-13 15:49:08.815 [info] Extension installed successfully: formulahendry.code-runner
+2023-03-13 15:49:10.308 [info] Getting Manifest... twxs.cmake
+2023-03-13 15:49:10.314 [info] Installing extension: twxs.cmake
+2023-03-13 15:49:11.695 [warning] Extension signature verification: twxs.cmake. Verification status: UnknownError.
+2023-03-13 15:49:11.834 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.cf162837-71ee-4861-8e7f-bdd373b8299a: twxs.cmake
+2023-03-13 15:49:11.840 [info] Renamed to /home/zyw/.vscode-insiders/extensions/twxs.cmake-0.0.17
+2023-03-13 15:49:11.842 [info] Extracting extension completed. twxs.cmake
+2023-03-13 15:49:11.849 [info] Extension installed successfully: twxs.cmake
+2023-03-13 15:49:13.912 [info] Getting Manifest... ms-vscode.cmake-tools
+2023-03-13 15:49:13.922 [info] Installing extension: ms-vscode.cmake-tools
+2023-03-13 15:49:14.242 [info] Getting Manifest... twxs.cmake
+2023-03-13 15:49:15.029 [warning] Extension signature verification: ms-vscode.cmake-tools. Verification status: UnknownError.
+2023-03-13 15:49:15.163 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.1058a44b-406c-41c4-abfc-fd2df6e2b1c7: ms-vscode.cmake-tools
+2023-03-13 15:49:15.170 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-vscode.cmake-tools-1.13.45
+2023-03-13 15:49:15.176 [info] Extracting extension completed. ms-vscode.cmake-tools
+2023-03-13 15:49:15.185 [info] Extension installed successfully: ms-vscode.cmake-tools
+2023-03-13 15:49:16.878 [info] Getting Manifest... pkief.material-icon-theme
+2023-03-13 15:49:16.885 [info] Installing extension: pkief.material-icon-theme
+2023-03-13 15:49:17.591 [warning] Extension signature verification: pkief.material-icon-theme. Verification status: UnknownError.
+2023-03-13 15:49:18.115 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.f783f21e-64e3-4946-8265-17aa8e93139b: pkief.material-icon-theme
+2023-03-13 15:49:18.123 [info] Renamed to /home/zyw/.vscode-insiders/extensions/pkief.material-icon-theme-4.24.0
+2023-03-13 15:49:18.125 [info] Extracting extension completed. pkief.material-icon-theme
+2023-03-13 15:49:18.131 [info] Extension installed successfully: pkief.material-icon-theme
+2023-03-13 15:49:19.058 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2023-03-13 15:49:19.064 [info] Installing extension: ms-vscode.cpptools-extension-pack
+2023-03-13 15:49:19.636 [info] Getting Manifest... ms-vscode.cpptools
+2023-03-13 15:49:19.648 [info] Getting Manifest... ms-vscode.cmake-tools
+2023-03-13 15:49:19.661 [info] Getting Manifest... ms-vscode.cpptools-themes
+2023-03-13 15:49:19.766 [info] Installing extension: ms-vscode.cpptools-themes ms-vscode.cpptools-extension-pack
+2023-03-13 15:49:20.198 [warning] Extension signature verification: ms-vscode.cpptools-themes. Verification status: UnknownError.
+2023-03-13 15:49:20.227 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.4c92931d-d5f9-4d38-a795-678ae29c1b05: ms-vscode.cpptools-themes
+2023-03-13 15:49:20.230 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-vscode.cpptools-themes-2.0.0
+2023-03-13 15:49:20.231 [info] Extracting extension completed. ms-vscode.cpptools-themes
+2023-03-13 15:49:20.688 [warning] Extension signature verification: ms-vscode.cpptools-extension-pack. Verification status: UnknownError.
+2023-03-13 15:49:20.695 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.d84e2e76-4335-4342-8cf2-b0f888a69e0e: ms-vscode.cpptools-extension-pack
+2023-03-13 15:49:20.698 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ms-vscode.cpptools-extension-pack-1.3.0
+2023-03-13 15:49:20.699 [info] Extracting extension completed. ms-vscode.cpptools-extension-pack
+2023-03-13 15:49:20.707 [info] Extension installed successfully: ms-vscode.cpptools-themes
+2023-03-13 15:49:20.707 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+2023-03-13 15:49:29.512 [info] Getting Manifest... formulahendry.auto-rename-tag
+2023-03-13 15:49:29.537 [info] Installing extension: formulahendry.auto-rename-tag
+2023-03-13 15:49:30.355 [warning] Extension signature verification: formulahendry.auto-rename-tag. Verification status: UnknownError.
+2023-03-13 15:49:30.397 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.0eadae4a-4440-4c9e-b3c5-4cc3a12794a2: formulahendry.auto-rename-tag
+2023-03-13 15:49:30.400 [info] Renamed to /home/zyw/.vscode-insiders/extensions/formulahendry.auto-rename-tag-0.1.10
+2023-03-13 15:49:30.402 [info] Extracting extension completed. formulahendry.auto-rename-tag
+2023-03-13 15:49:30.412 [info] Extension installed successfully: formulahendry.auto-rename-tag
+2023-03-13 15:49:31.229 [info] Getting Manifest... ecmel.vscode-html-css
+2023-03-13 15:49:31.241 [info] Installing extension: ecmel.vscode-html-css
+2023-03-13 15:49:32.054 [warning] Extension signature verification: ecmel.vscode-html-css. Verification status: UnknownError.
+2023-03-13 15:49:32.082 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.fcd6d516-8f4d-4ee4-94d7-aba13c62a018: ecmel.vscode-html-css
+2023-03-13 15:49:32.085 [info] Renamed to /home/zyw/.vscode-insiders/extensions/ecmel.vscode-html-css-1.13.1
+2023-03-13 15:49:32.087 [info] Extracting extension completed. ecmel.vscode-html-css
+2023-03-13 15:49:32.094 [info] Extension installed successfully: ecmel.vscode-html-css
+2023-03-13 15:49:38.301 [info] Getting Manifest... formulahendry.auto-close-tag
+2023-03-13 15:49:38.317 [info] Installing extension: formulahendry.auto-close-tag
+2023-03-13 15:49:39.103 [warning] Extension signature verification: formulahendry.auto-close-tag. Verification status: UnknownError.
+2023-03-13 15:49:39.127 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.d11b2013-c5a6-4bd4-aca5-916ab0176cdd: formulahendry.auto-close-tag
+2023-03-13 15:49:39.129 [info] Renamed to /home/zyw/.vscode-insiders/extensions/formulahendry.auto-close-tag-0.5.14
+2023-03-13 15:49:39.131 [info] Extracting extension completed. formulahendry.auto-close-tag
+2023-03-13 15:49:39.138 [info] Extension installed successfully: formulahendry.auto-close-tag
+2023-03-13 15:49:39.854 [info] Getting Manifest... christian-kohler.path-intellisense
+2023-03-13 15:49:39.866 [info] Installing extension: christian-kohler.path-intellisense
+2023-03-13 15:49:40.620 [warning] Extension signature verification: christian-kohler.path-intellisense. Verification status: UnknownError.
+2023-03-13 15:49:40.693 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.5f1caaa2-5f3f-4f4b-a56f-23a892c06a22: christian-kohler.path-intellisense
+2023-03-13 15:49:40.696 [info] Renamed to /home/zyw/.vscode-insiders/extensions/christian-kohler.path-intellisense-2.8.4
+2023-03-13 15:49:40.699 [info] Extracting extension completed. christian-kohler.path-intellisense
+2023-03-13 15:49:40.721 [info] Extension installed successfully: christian-kohler.path-intellisense
+2023-03-13 15:49:44.456 [info] Getting Manifest... bmewburn.vscode-intelephense-client
+2023-03-13 15:49:44.462 [info] Installing extension: bmewburn.vscode-intelephense-client
+2023-03-13 15:49:45.217 [info] Getting Manifest... xdebug.php-debug
+2023-03-13 15:49:45.223 [info] Installing extension: xdebug.php-debug
+2023-03-13 15:49:45.761 [warning] Extension signature verification: bmewburn.vscode-intelephense-client. Verification status: UnknownError.
+2023-03-13 15:49:46.054 [warning] Extension signature verification: xdebug.php-debug. Verification status: UnknownError.
+2023-03-13 15:49:46.459 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.e368fdf8-2ab5-4a16-b2b0-f237b3785579: bmewburn.vscode-intelephense-client
+2023-03-13 15:49:46.467 [info] Renamed to /home/zyw/.vscode-insiders/extensions/bmewburn.vscode-intelephense-client-1.9.5
+2023-03-13 15:49:46.469 [info] Extracting extension completed. bmewburn.vscode-intelephense-client
+2023-03-13 15:49:46.477 [info] Extension installed successfully: bmewburn.vscode-intelephense-client
+2023-03-13 15:49:46.733 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.9ea181d1-4a71-4294-9541-d1fefac35829: xdebug.php-debug
+2023-03-13 15:49:46.739 [info] Renamed to /home/zyw/.vscode-insiders/extensions/xdebug.php-debug-1.32.0
+2023-03-13 15:49:46.741 [info] Extracting extension completed. xdebug.php-debug
+2023-03-13 15:49:46.747 [info] Extension installed successfully: xdebug.php-debug
+2023-03-13 15:49:52.239 [info] Getting Manifest... zhuangtongfa.material-theme
+2023-03-13 15:49:52.255 [info] Installing extension: zhuangtongfa.material-theme
+2023-03-13 15:49:52.932 [warning] Extension signature verification: zhuangtongfa.material-theme. Verification status: UnknownError.
+2023-03-13 15:49:52.990 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.164b2d30-2cde-4b3e-905a-c2f2462dc20d: zhuangtongfa.material-theme
+2023-03-13 15:49:52.992 [info] Renamed to /home/zyw/.vscode-insiders/extensions/zhuangtongfa.material-theme-3.15.8
+2023-03-13 15:49:52.994 [info] Extracting extension completed. zhuangtongfa.material-theme
+2023-03-13 15:49:53.002 [info] Extension installed successfully: zhuangtongfa.material-theme
+2023-03-13 15:50:02.518 [info] Getting Manifest... yzhang.markdown-all-in-one
+2023-03-13 15:50:02.527 [info] Installing extension: yzhang.markdown-all-in-one
+2023-03-13 15:50:03.386 [warning] Extension signature verification: yzhang.markdown-all-in-one. Verification status: UnknownError.
+2023-03-13 15:50:03.434 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.e0b88777-77ac-4782-9ed3-95212a29d86c: yzhang.markdown-all-in-one
+2023-03-13 15:50:03.437 [info] Renamed to /home/zyw/.vscode-insiders/extensions/yzhang.markdown-all-in-one-3.5.0
+2023-03-13 15:50:03.440 [info] Extracting extension completed. yzhang.markdown-all-in-one
+2023-03-13 15:50:03.449 [info] Extension installed successfully: yzhang.markdown-all-in-one
+2023-03-13 15:50:04.179 [info] Getting Manifest... zignd.html-css-class-completion
+2023-03-13 15:50:04.190 [info] Installing extension: zignd.html-css-class-completion
+2023-03-13 15:50:05.397 [warning] Extension signature verification: zignd.html-css-class-completion. Verification status: UnknownError.
+2023-03-13 15:50:06.389 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.c73bf038-cd8a-487b-b608-d4d60714f2e4: zignd.html-css-class-completion
+2023-03-13 15:50:06.396 [info] Renamed to /home/zyw/.vscode-insiders/extensions/zignd.html-css-class-completion-1.20.0
+2023-03-13 15:50:06.397 [info] Extracting extension completed. zignd.html-css-class-completion
+2023-03-13 15:50:06.403 [info] Extension installed successfully: zignd.html-css-class-completion
+2023-03-13 15:50:22.858 [info] Getting Manifest... tabnine.tabnine-vscode
+2023-03-13 15:50:22.879 [info] Installing extension: tabnine.tabnine-vscode
+2023-03-13 15:50:23.694 [warning] Extension signature verification: tabnine.tabnine-vscode. Verification status: UnknownError.
+2023-03-13 15:50:23.727 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.7d071d75-9e77-40e6-8ba0-17ffc2010475: tabnine.tabnine-vscode
+2023-03-13 15:50:23.731 [info] Renamed to /home/zyw/.vscode-insiders/extensions/tabnine.tabnine-vscode-3.6.41
+2023-03-13 15:50:23.734 [info] Extracting extension completed. tabnine.tabnine-vscode
+2023-03-13 15:50:23.746 [info] Extension installed successfully: tabnine.tabnine-vscode
+2023-03-13 15:50:25.805 [info] Getting Manifest... naumovs.color-highlight
+2023-03-13 15:50:25.810 [info] Installing extension: naumovs.color-highlight
+2023-03-13 15:50:26.785 [warning] Extension signature verification: naumovs.color-highlight. Verification status: UnknownError.
+2023-03-13 15:50:27.002 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.eb99376d-530b-4e7a-b32b-2520fe87bb80: naumovs.color-highlight
+2023-03-13 15:50:27.008 [info] Renamed to /home/zyw/.vscode-insiders/extensions/naumovs.color-highlight-2.5.0
+2023-03-13 15:50:27.010 [info] Extracting extension completed. naumovs.color-highlight
+2023-03-13 15:50:27.017 [info] Extension installed successfully: naumovs.color-highlight
+2023-03-13 15:50:30.445 [info] Getting Manifest... oderwat.indent-rainbow
+2023-03-13 15:50:30.449 [info] Installing extension: oderwat.indent-rainbow
+2023-03-13 15:50:31.840 [warning] Extension signature verification: oderwat.indent-rainbow. Verification status: UnknownError.
+2023-03-13 15:50:32.720 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.733a879c-099c-4c82-b7ab-a401e062e1c7: oderwat.indent-rainbow
+2023-03-13 15:50:32.722 [info] Renamed to /home/zyw/.vscode-insiders/extensions/oderwat.indent-rainbow-8.3.1
+2023-03-13 15:50:32.724 [info] Extracting extension completed. oderwat.indent-rainbow
+2023-03-13 15:50:32.730 [info] Extension installed successfully: oderwat.indent-rainbow
+2023-03-13 15:50:33.408 [info] Getting Manifest... dotjoshjohnson.xml
+2023-03-13 15:50:33.415 [info] Installing extension: dotjoshjohnson.xml
+2023-03-13 15:50:34.284 [warning] Extension signature verification: dotjoshjohnson.xml. Verification status: UnknownError.
+2023-03-13 15:50:34.913 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.b79d246c-e1c9-434f-9ad9-e3b9f479115a: dotjoshjohnson.xml
+2023-03-13 15:50:34.920 [info] Renamed to /home/zyw/.vscode-insiders/extensions/dotjoshjohnson.xml-2.5.1
+2023-03-13 15:50:34.922 [info] Extracting extension completed. dotjoshjohnson.xml
+2023-03-13 15:50:34.932 [info] Extension installed successfully: dotjoshjohnson.xml
+2023-03-13 15:50:37.699 [info] Getting Manifest... aaron-bond.better-comments
+2023-03-13 15:50:37.713 [info] Installing extension: aaron-bond.better-comments
+2023-03-13 15:50:38.839 [warning] Extension signature verification: aaron-bond.better-comments. Verification status: UnknownError.
+2023-03-13 15:50:38.873 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.6484860b-87a3-47ed-82c6-2d567f62d4a4: aaron-bond.better-comments
+2023-03-13 15:50:38.876 [info] Renamed to /home/zyw/.vscode-insiders/extensions/aaron-bond.better-comments-3.0.2
+2023-03-13 15:50:38.878 [info] Extracting extension completed. aaron-bond.better-comments
+2023-03-13 15:50:38.885 [info] Extension installed successfully: aaron-bond.better-comments
+2023-03-13 15:50:40.060 [info] Getting Manifest... kevinrose.vsc-python-indent
+2023-03-13 15:50:40.064 [info] Installing extension: kevinrose.vsc-python-indent
+2023-03-13 15:50:41.199 [info] Getting Manifest... njpwerner.autodocstring
+2023-03-13 15:50:41.207 [info] Installing extension: njpwerner.autodocstring
+2023-03-13 15:50:41.512 [warning] Extension signature verification: kevinrose.vsc-python-indent. Verification status: UnknownError.
+2023-03-13 15:50:41.583 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.6db1e07c-8be1-474d-8461-2288161db58d: kevinrose.vsc-python-indent
+2023-03-13 15:50:41.586 [info] Renamed to /home/zyw/.vscode-insiders/extensions/kevinrose.vsc-python-indent-1.18.0
+2023-03-13 15:50:41.588 [info] Extracting extension completed. kevinrose.vsc-python-indent
+2023-03-13 15:50:41.596 [info] Extension installed successfully: kevinrose.vsc-python-indent
+2023-03-13 15:50:42.326 [warning] Extension signature verification: njpwerner.autodocstring. Verification status: UnknownError.
+2023-03-13 15:50:42.430 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.d777b0db-e5d2-42c0-bc48-268541aa00d4: njpwerner.autodocstring
+2023-03-13 15:50:42.438 [info] Renamed to /home/zyw/.vscode-insiders/extensions/njpwerner.autodocstring-0.6.1
+2023-03-13 15:50:42.440 [info] Extracting extension completed. njpwerner.autodocstring
+2023-03-13 15:50:42.450 [info] Extension installed successfully: njpwerner.autodocstring
+2023-03-13 15:50:45.747 [info] Getting Manifest... github.copilot
+2023-03-13 15:50:45.767 [info] Installing extension: github.copilot
+2023-03-13 15:50:47.090 [info] Getting Manifest... pranaygp.vscode-css-peek
+2023-03-13 15:50:47.102 [info] Installing extension: pranaygp.vscode-css-peek
+2023-03-13 15:50:48.193 [warning] Extension signature verification: pranaygp.vscode-css-peek. Verification status: UnknownError.
+2023-03-13 15:50:48.424 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.a306432f-7de1-444d-9ed2-0a355df397a1: pranaygp.vscode-css-peek
+2023-03-13 15:50:48.431 [info] Renamed to /home/zyw/.vscode-insiders/extensions/pranaygp.vscode-css-peek-4.2.0
+2023-03-13 15:50:48.432 [info] Extracting extension completed. pranaygp.vscode-css-peek
+2023-03-13 15:50:48.440 [info] Extension installed successfully: pranaygp.vscode-css-peek
+2023-03-13 15:50:49.166 [warning] Extension signature verification: github.copilot. Verification status: UnknownError.
+2023-03-13 15:50:49.431 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.ed71b2c0-0c80-4544-b924-96a502b64ce2: github.copilot
+2023-03-13 15:50:49.437 [info] Renamed to /home/zyw/.vscode-insiders/extensions/github.copilot-1.77.9225
+2023-03-13 15:50:49.439 [info] Extracting extension completed. github.copilot
+2023-03-13 15:50:49.447 [info] Extension installed successfully: github.copilot
+2023-03-13 15:50:57.285 [info] Getting Manifest... wayou.vscode-todo-highlight
+2023-03-13 15:50:57.298 [info] Installing extension: wayou.vscode-todo-highlight
+2023-03-13 15:50:58.523 [warning] Extension signature verification: wayou.vscode-todo-highlight. Verification status: UnknownError.
+2023-03-13 15:50:58.567 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.56026353-f22f-481f-93e9-375dffde9899: wayou.vscode-todo-highlight
+2023-03-13 15:50:58.570 [info] Renamed to /home/zyw/.vscode-insiders/extensions/wayou.vscode-todo-highlight-1.0.5
+2023-03-13 15:50:58.571 [info] Extracting extension completed. wayou.vscode-todo-highlight
+2023-03-13 15:50:58.579 [info] Extension installed successfully: wayou.vscode-todo-highlight
+2023-03-13 15:51:01.008 [info] Getting Manifest... alefragnani.project-manager
+2023-03-13 15:51:01.021 [info] Installing extension: alefragnani.project-manager
+2023-03-13 15:51:02.461 [warning] Extension signature verification: alefragnani.project-manager. Verification status: UnknownError.
+2023-03-13 15:51:02.523 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.c603aba1-39e5-445a-afa1-f43c25be86fb: alefragnani.project-manager
+2023-03-13 15:51:02.526 [info] Renamed to /home/zyw/.vscode-insiders/extensions/alefragnani.project-manager-12.7.0
+2023-03-13 15:51:02.530 [info] Extracting extension completed. alefragnani.project-manager
+2023-03-13 15:51:02.540 [info] Extension installed successfully: alefragnani.project-manager
+2023-03-13 15:51:16.030 [info] Getting Manifest... eamodio.gitlens
+2023-03-13 15:51:16.043 [info] Installing extension: eamodio.gitlens
+2023-03-13 15:51:17.416 [warning] Extension signature verification: eamodio.gitlens. Verification status: UnknownError.
+2023-03-13 15:51:17.705 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.ca82b9e5-627f-4b04-b568-9acde1f5a04f: eamodio.gitlens
+2023-03-13 15:51:17.719 [info] Renamed to /home/zyw/.vscode-insiders/extensions/eamodio.gitlens-13.3.2
+2023-03-13 15:51:17.726 [info] Extracting extension completed. eamodio.gitlens
+2023-03-13 15:51:17.747 [info] Extension installed successfully: eamodio.gitlens
+2023-03-13 15:51:22.132 [info] Getting Manifest... equinusocio.vsc-community-material-theme
+2023-03-13 15:51:22.141 [info] Installing extension: equinusocio.vsc-community-material-theme
+2023-03-13 15:51:22.810 [warning] Extension signature verification: equinusocio.vsc-community-material-theme. Verification status: UnknownError.
+2023-03-13 15:51:22.840 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.9d226404-9ad6-4c11-9c3d-0cc5c6dca0d2: equinusocio.vsc-community-material-theme
+2023-03-13 15:51:22.843 [info] Renamed to /home/zyw/.vscode-insiders/extensions/equinusocio.vsc-community-material-theme-1.4.4
+2023-03-13 15:51:22.844 [info] Extracting extension completed. equinusocio.vsc-community-material-theme
+2023-03-13 15:51:22.855 [info] Extension installed successfully: equinusocio.vsc-community-material-theme
+2023-03-13 15:51:29.259 [info] Getting Manifest... mtxr.sqltools
+2023-03-13 15:51:29.272 [info] Installing extension: mtxr.sqltools
+2023-03-13 15:51:30.043 [warning] Extension signature verification: mtxr.sqltools. Verification status: UnknownError.
+2023-03-13 15:51:30.126 [info] Extracted extension to /home/zyw/.vscode-insiders/extensions/.29fac5df-7ab0-474f-9707-4eec31d7d6f7: mtxr.sqltools
+2023-03-13 15:51:30.132 [info] Renamed to /home/zyw/.vscode-insiders/extensions/mtxr.sqltools-0.27.1
+2023-03-13 15:51:30.134 [info] Extracting extension completed. mtxr.sqltools
+2023-03-13 15:51:30.146 [info] Extension installed successfully: mtxr.sqltools

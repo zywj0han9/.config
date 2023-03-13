@@ -1,0 +1,21 @@
+2023/03/13-16:24:58.705 3 Reusing MANIFEST /home/zyw/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2023/03/13-16:24:58.706 3 Recovering log #10
+2023/03/13-16:24:58.706 3 Reusing old log /home/zyw/.config/google-chrome/Default/Session Storage/000010.log 
+2023/03/13-16:26:15.380 5 Level-0 table #14: started
+2023/03/13-16:26:15.385 5 Level-0 table #14: 185307 bytes OK
+2023/03/13-16:26:15.386 5 Delete type=0 #10
+2023/03/13-16:27:37.973 3 Level-0 table #16: started
+2023/03/13-16:27:37.987 3 Level-0 table #16: 129851 bytes OK
+2023/03/13-16:27:37.994 3 Delete type=0 #13
+2023/03/13-16:27:37.995 3 Compacting 4@0 + 1@1 files
+2023/03/13-16:27:38.025 3 Generated table #17@0: 86 keys, 312892 bytes
+2023/03/13-16:27:38.026 3 Compacted 4@0 + 1@1 files => 312892 bytes
+2023/03/13-16:27:38.027 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/13-16:27:38.029 3 Delete type=2 #7
+2023/03/13-16:27:38.029 3 Delete type=2 #9
+2023/03/13-16:27:38.029 3 Delete type=2 #16
+2023/03/13-16:27:38.029 3 Delete type=2 #11
+2023/03/13-16:27:38.029 3 Delete type=2 #14
+2023/03/13-16:28:52.461 3 Level-0 table #19: started
+2023/03/13-16:28:52.472 3 Level-0 table #19: 121386 bytes OK
+2023/03/13-16:28:52.476 3 Delete type=0 #15
