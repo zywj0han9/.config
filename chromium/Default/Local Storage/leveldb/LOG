@@ -1,0 +1,6 @@
+2023/03/13-09:07:36.306 3 Reusing MANIFEST /home/Zyw/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/03/13-09:07:36.306 3 Recovering log #3
+2023/03/13-09:07:36.307 3 Reusing old log /home/Zyw/.config/chromium/Default/Local Storage/leveldb/000003.log 
+2023/03/13-09:11:39.524 3 Level-0 table #5: started
+2023/03/13-09:11:39.533 3 Level-0 table #5: 43472 bytes OK
+2023/03/13-09:11:39.538 3 Delete type=0 #3
