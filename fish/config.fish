@@ -15,3 +15,4 @@ alias vscode code-oss
 alias nf neofetch
 alias lg lazygit
 alias gc "git clone"
+starship init fish | source

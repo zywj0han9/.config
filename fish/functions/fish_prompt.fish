@@ -1,1 +1,0 @@
-/home/zyw/.local/share/omf/themes/edan/fish_prompt.fish
