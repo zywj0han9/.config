@@ -1,0 +1,37 @@
+#! /bin/sh
+
+# fcitx5
+fcitx5 &
+
+# waybar
+waybar &
+
+# variety
+variety &
+
+# mako 
+mako &
+
+# river-tag-overlay 
+river-tag-overlay & 
+
+# DPI
+#way-displays &
+
+# set Background
+swaybg -i ~/Pictures/ -m fill &
+
+# Follow
+follow &
+
+# Email
+thunderbird &
+
+# Discord
+discord &
+
+# RSS reader
+fluent-reader &
+
+#  Flameshot
+flameshot &

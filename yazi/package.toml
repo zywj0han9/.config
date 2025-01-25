@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "yazi-rs/plugins:git", rev = "a430295" }, { use = "yazi-rs/plugins:smart-enter", rev = "a430295" }, { use = "Rolv-Apneseth/starship", rev = "af8bf6f" }, { use = "llanosrocas/yaziline", rev = "864572c" }]
+
+[flavor]
+deps = [{ use = "PinThePenguine/sunset", rev = "181acd4" }]

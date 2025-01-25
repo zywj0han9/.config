@@ -1,0 +1,3 @@
+#! /bin/sh
+
+mpvpaper -o "no-audio --loop-playlist shuffle" '*' /mnt/NAS/2-Media/wallpaper/3254544700/Spaceroom\ Wallpaper.mp4
