@@ -1,8 +1,11 @@
 - Linux .config 文件 包括
-	- polybar
-	- rofi
-	- vcore
 	- fish
-	- albert
-	- ranger
+	- btop
+	- yazi
 	- autostart
+    - fastfetch
+    - neofetch
+    - waybar
+    - btop
+    - screen
+    - kitty

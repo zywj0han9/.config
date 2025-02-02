@@ -3,6 +3,7 @@ alias c clear
 alias l "ls -la"
 alias q exit
 alias pf poweroff
+alias rb reboot
 alias yz yazi 
 alias nf neofetch
 alias gc "git clone"
@@ -22,10 +23,23 @@ set -gx EDITOR nvim
 set -gx VISUAL nvim
 
 ###################################
-###         Anaconda
+###         Lazy Git
 ###################################
-set -gx PATH /home/j0han9/anaconda3 $PATH
+alias lg lazygit
 
+###################################
+###         Clamav
+###################################
+
+###################################
+###         color
+###################################
+set -gx MESA_GL_VERSION_OVERRIDE 4.5
+set -gx WLR_RENDERER_ALLOW_SOFTWARE 1
+###################################
+###         Cursor
+###################################
+#set -gx XCURSOR_SIZE 32
 ###################################
 ###         DPI
 ###################################
@@ -33,6 +47,8 @@ set -gx GDK_SCALE 1.5
 set -gx GDK_DPI_SCALE 1.5
 set -gx QT_SCALE_FACTOR 1.5
 set -gx QT_DPI_SCALE 1.5
+set -gx XCURSOR_SIZE 32
+set -gx XDG_SESSION_TYPE wayland
 
 ###################################
 ###         Local Config		###
@@ -60,6 +76,11 @@ set -x FONTCONFIG_PATH "/usr/share/fontcontig"
 #set -x QT_LOGGING_RULES "*.debug=false;*.info=false;*.warning=true"
 
 ###################################
+###	         Bash               ###
+###################################
+#source ~/.bashrc
+
+###################################
 ###	        Gitlab Config		###
 ###################################
 set -x GITLAB_TOKEN "glpat-87BhBgB9BMQRCJs8u7zy"
@@ -76,10 +97,10 @@ alias fishc "nvim ~/.config/fish/config.fish"
 alias fishs "source ~/.config/fish/config.fish"
 alias nvimc "nvim ~/.config/nvim/lua/config/core/init.lua"
 alias i3c "nvim ~/.i3/config"
-alias github "cd /mnt/File/Linux/Documents/Github/"
-alias Application "cd /mnt/Application/"
-alias Game "cd /mnt/Game/"
-alias File "cd /mnt/File/Linux"
+alias github "cd ~/Documents/Github/"
+alias Application "cd ~/Application/"
+alias Game "cd ~/Game/"
+alias File "cd ~/Documents"
 
 ###################################
 ###         NPM Config		    ###
@@ -129,7 +150,6 @@ else
         . "/home/j0han9/anaconda3/etc/fish/conf.d/conda.fish"
     else
         set -x PATH "/home/j0han9/anaconda3/bin" $PATH
-    end
+        end
 end
-# <<< conda initialize <<<
 

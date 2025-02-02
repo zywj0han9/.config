@@ -9,6 +9,9 @@ waybar &
 # variety
 variety &
 
+# set Background
+swaybg -i ~/Pictures/ -m fill &
+
 # mako 
 mako &
 
@@ -17,9 +20,6 @@ river-tag-overlay &
 
 # DPI
 #way-displays &
-
-# set Background
-swaybg -i ~/Pictures/ -m fill &
 
 # Follow
 follow &
@@ -34,4 +34,11 @@ discord &
 fluent-reader &
 
 #  Flameshot
-flameshot &
+#flameshot &
+
+# Steam
+steam &
+
+# Lutris
+#lutris &
+

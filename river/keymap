@@ -10,7 +10,7 @@
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
 
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
-riverctl map normal Alt Return spawn konsole
+riverctl map normal Alt Return spawn kitty
 
 # User Profile setting
 riverctl map normal Alt C spawn google-chrome-stable
@@ -25,6 +25,10 @@ riverctl map normal Alt T spawn telegram-desktop
 riverctl map normal Alt V spawn vlc
 riverctl map normal Alt B spawn WinBox
 riverctl map normal Alt R spawn fluent-reader
+#riverctl map normal Alt Y spawn '/home/j0han9/Application/siyuan-3.1.20-linux.AppImage'
+
+# Mouse 
+riverctl input "pointer-*" accel-profile flat
 
 # Tag
 #riverctl tag ""
@@ -38,7 +42,7 @@ riverctl map normal Alt Q close
 
 # Super+Shift+E to exit river
 riverctl map normal Alt+Shift Q exit
-
+export XCURSOR_SIZE=32
 # Super+J and Super+K to focus the next/previous view in the layout stack
 riverctl map normal Alt N focus-view next
 riverctl map normal Alt I focus-view previous
