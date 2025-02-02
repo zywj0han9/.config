@@ -83,7 +83,6 @@ set -x FONTCONFIG_PATH "/usr/share/fontcontig"
 ###################################
 ###	        Gitlab Config		###
 ###################################
-set -x GITLAB_TOKEN "glpat-87BhBgB9BMQRCJs8u7zy"
 
 ###################################
 ###         JAVA Config		    ###
