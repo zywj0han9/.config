@@ -5,3 +5,6 @@
 [submodule "yazi/plugins/compress.yazi"]
 	path = yazi/plugins/compress.yazi
 	url = https://github.com/KKV9/compress.yazi.git
+[submodule "yazi/flavors/tokyo-night.yazi"]
+	path = yazi/flavors/tokyo-night.yazi
+	url = https://github.com/BennyOe/tokyo-night.yazi.git
