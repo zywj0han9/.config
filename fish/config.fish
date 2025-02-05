@@ -76,9 +76,9 @@ set -x FONTCONFIG_PATH "/usr/share/fontcontig"
 #set -x QT_LOGGING_RULES "*.debug=false;*.info=false;*.warning=true"
 
 ###################################
-###	         Bash               ###
+###	          Go                ###
 ###################################
-#source ~/.bashrc
+set -gx PATH $PATH /usr/local/go/bin
 
 ###################################
 ###	        Gitlab Config		###
@@ -108,7 +108,7 @@ set -x NPM_PACKAGES "~/.npm-packages"
 set -x NODE_PATH "$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
 set -x PATH "$NPM_PACKAGES/bin:$PATH"
 set -x PATH /usr/local/bin/ $PATH
-
+set -x N_PREFIX $HOME/.n
 ###################################
 ###	        River Config		###
 ###################################
