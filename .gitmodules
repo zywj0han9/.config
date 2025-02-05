@@ -1,7 +1,7 @@
 [submodule "yazi/compress.yazi"]
 	path = yazi/plugins/compress.yazi
 	url = https://github.com/KKV9/compress.yazi.git
-[submodule "yazi/compress.yazi"]
+[submodule "yazi/yamb.yazi"]
 	path = yazi/plugins/yamb.yazi
 	url = https://github.com/h-hg/yamb.yazi.git
 
