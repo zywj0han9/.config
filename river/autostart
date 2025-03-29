@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # fcitx5
-fcitx5 &
+fcitx5 -d --replace &
 
 # waybar
 waybar &
@@ -9,23 +9,20 @@ waybar &
 # variety
 variety &
 
-# set Background
-swaybg -i ~/Pictures/ -m fill &
+# Notionfy
+dunst &
 
-# mako 
-mako &
-
-# river-tag-overlay 
-river-tag-overlay & 
+# river-tag-overlay
+river-tag-overlay &
 
 # DPI
 #way-displays &
 
 # Follow
-follow &
+#follow &
 
 # Email
-thunderbird &
+#thunderbird &
 
 # Discord
 discord &
@@ -33,8 +30,8 @@ discord &
 # RSS reader
 fluent-reader &
 
-#  Flameshot
-#flameshot &
+# Screen shot
+#obs &
 
 # Steam
 steam &
@@ -42,3 +39,11 @@ steam &
 # Lutris
 #lutris &
 
+# Telegram
+telegram-desktop &
+
+# Numlock
+numlockx on
+
+# EQ
+easyeffects &

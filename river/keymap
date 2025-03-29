@@ -1,4 +1,3 @@
-
 # This is the example configuration file for river.
 #
 # If you wish to edit this, you will probably want to copy it to
@@ -8,41 +7,85 @@
 # documentation.
 
 # Note: the "Super" modifier is also known as Logo, GUI, Windows, Mod4, etc.
-
 # Super+Shift+Return to start an instance of foot (https://codeberg.org/dnkl/foot)
 riverctl map normal Alt Return spawn kitty
-
+riverctl map normal Alt+Shift Return spawn konsole
 # User Profile setting
 riverctl map normal Alt C spawn google-chrome-stable
 riverctl map normal Alt X spawn firefox
 riverctl map normal Alt D spawn discord
 riverctl map normal Alt M spawn thunderbird
-riverctl map normal Alt E spawn dde-file-manager
+riverctl map normal Alt A spawn thunar
 riverctl map normal Alt O spawn code
 riverctl map normal Alt W spawn follow
 riverctl map normal Alt S spawn steam
 riverctl map normal Alt T spawn telegram-desktop
 riverctl map normal Alt V spawn vlc
+riverctl map normal Alt J spawn tradingview
 riverctl map normal Alt B spawn WinBox
 riverctl map normal Alt R spawn fluent-reader
-#riverctl map normal Alt Y spawn '/home/j0han9/Application/siyuan-3.1.20-linux.AppImage'
-
-# Mouse 
-riverctl input "pointer-*" accel-profile flat
+riverctl map normal Alt Y spawn '/home/j0han9/Application/siyuan-3.1.20-linux.AppImage'
+riverctl map normal Alt P spawn okular
+riverctl map normal Alt G spawn obs
+riverctl map normal Alt Shift Q spawn
+# Hide cursor after 15min
+riverctl hide-cursor timeout 900000
 
 # Tag
-#riverctl tag ""
-#riverctl tag ""
-#riverctl tag ""
-#riverctl tag ""
-#riverctl tag ""
+# 1-1
+# 2-2
+# 3-4
+# 4-8
+# 5-16
+# 6-32
+# 7-64
+# 8-128
+# 9-256
+riverctl rule-add -app-id "firefox" tags 2  # 标签2
+riverctl rule-add -app-id "fluent-reader" tags 1 # 标签1
+riverctl rule-add -app-id "thunderbird" tags 256 # 标签9
+riverctl rule-add -app-id "discord" tags 256    # 标签9
+riverctl rule-add -app-id "google-chrome" tags 2   # 标签2
+riverctl rule-add -app-id "Google-chrome" tags 2   # 标签2
+riverctl rule-add -app-id "Chromium" tags 2 # 标签2
+riverctl rule-add -app-id "Code" tags 16 # 标签5
+riverctl rule-add -app-id "org.telegram.desktop" tags 64 # 标签7
+riverctl rule-add -app-id "Follow" tags 256 # 标签9
+riverctl rule-add -app-id "steam" tags 32 # 标签6
+riverctl rule-add -app-id "cs2" tags 4 # 标签3
+riverctl rule-add -app-id "steam_app_230410" tag 4# 标签3
+riverctl rule-add -app-id "com.github.wwmm.easyeffects" tags 128
+# riverctl rule-add -app-id "" tags
+
+# system
+#dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+
+# Mouse 加速度设为0
+riverctl input "pointer-*" accel-profile flat
+riverctl input "pointer-*" pointer-accel 0
+
+# Keyboard
+riverctl input "*Keychron_Q0*" events enabled
+
+riverctl input keyboard-13364-417-Keychron_Keychron_Q0 disable-while-trackpointing enabled
+riverctl input keyboard-13364-417-Keychron_Keychron_Q0 disable-while-typing  enabled
+riverctl input keyboard-13364-417-Keychron_Keychron_Q0_Keyboard disable-while-trackpointing enabled
+riverctl input keyboard-13364-417-Keychron_Keychron_Q0_Keyboard disable-while-typing  enabled
+
+riverctl input keyboard-13364-417-Keychron_Keychron_Q10 disable-while-trackpointing enabled
+riverctl input keyboard-13364-417-Keychron_Keychron_Q10 disable-while-typing  enabled
+riverctl input keyboard-13364-417-Keychron_Keychron_Q10_Keyboard disable-while-trackpointing enabled
+riverctl input keyboard-13364-417-Keychron_Keychron_Q10_Keyboard disable-while-typing  enabled
+
+# Cursor theme and size
+riverctl xcursor-theme Bibata-Modern-Ice 32
 
 # Super+Q to close the focused view
 riverctl map normal Alt Q close
 
 # Super+Shift+E to exit river
 riverctl map normal Alt+Shift Q exit
-export XCURSOR_SIZE=32
+
 # Super+J and Super+K to focus the next/previous view in the layout stack
 riverctl map normal Alt N focus-view next
 riverctl map normal Alt I focus-view previous
@@ -57,11 +100,11 @@ riverctl map normal Super N focus-output next
 riverctl map normal Super I focus-output previous
 
 # Super+Shift+{Period,Comma} to send the focused view to the next/previous output
-riverctl map normal Super N send-to-output next
-riverctl map normal Super I Comma send-to-output previous
+riverctl map normal Super+Shift N send-to-output next
+riverctl map normal Super+Shift I send-to-output previous
 
 # Super+Return to bump the focused view to the top of the layout stack
-riverctl map normal Alt+Shift Return zoom
+riverctl map normal Alt+Shift / zoom
 
 # Super+H and Super+L to decrease/increase the main ratio of rivertile(1)
 riverctl map normal Super N send-layout-cmd rivertile "main-ratio -0.05"
@@ -167,7 +210,7 @@ done
 
 # Set background and border color
 riverctl background-color 0x002b36
-riverctl border-color-focused 0x93a1a1
+riverctl border-color-focused 0x00FF00FF
 riverctl border-color-unfocused 0x586e75
 
 # Set keyboard repeat rate
@@ -183,4 +226,5 @@ riverctl rule-add -app-id "bar" csd
 # River will send the process group of the init executable SIGTERM on exit.
 riverctl default-layout rivertile
 rivertile -view-padding 6 -outer-padding 6 &
+
 

@@ -1,3 +1,2 @@
 #! /bin/sh
-
-mpvpaper -o "no-audio --loop-playlist shuffle" '*' /mnt/NAS/2-Media/wallpaper/3254544700/Spaceroom\ Wallpaper.mp4
+mpvpaper -o "no-audio --loop-playlist shuffle" '*' '/home/j0han9/Game/SteamLibrary/steamapps/workshop/content/431960/875617215/inthesnow 2_1.mp4'

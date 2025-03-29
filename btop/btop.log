@@ -54,3 +54,52 @@
 2025/01/31 (15:00:57) | ===> btop++ v.1.4.0
 2025/01/31 (15:00:57) | WARNING: Intel GPU: Failed to initialize PMU
 2025/01/31 (15:23:24) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/03 (14:18:16) | ===> btop++ v.1.4.0
+2025/02/03 (14:18:16) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/03 (14:18:33) | ===> btop++ v.1.4.0
+2025/02/03 (14:18:33) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/03 (14:24:16) | ===> btop++ v.1.4.0
+2025/02/03 (14:24:16) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/03 (14:24:35) | ===> btop++ v.1.4.0
+2025/02/03 (14:24:35) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/03 (14:24:41) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/03 (14:48:09) | ===> btop++ v.1.4.0
+2025/02/03 (14:48:09) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/06 (11:12:23) | ===> btop++ v.1.4.0
+2025/02/06 (11:12:23) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/08 (09:43:06) | ===> btop++ v.1.4.0
+2025/02/08 (09:43:06) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/08 (09:43:42) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/08 (09:44:01) | ===> btop++ v.1.4.0
+2025/02/08 (09:44:01) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/02/12 (07:20:54) | ===> btop++ v.1.4.0
+2025/02/12 (07:20:54) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/12 (07:22:10) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/12 (16:53:34) | ===> btop++ v.1.4.0
+2025/02/12 (16:53:34) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/12 (16:55:59) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/13 (10:48:56) | ===> btop++ v.1.4.0
+2025/02/13 (10:48:56) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/13 (10:53:26) | ===> btop++ v.1.4.0
+2025/02/13 (10:53:26) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/13 (11:29:33) | ===> btop++ v.1.4.0
+2025/02/13 (11:29:33) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/14 (11:53:23) | ===> btop++ v.1.4.0
+2025/02/14 (11:53:23) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...
+
+2025/02/15 (10:22:39) | ===> btop++ v.1.4.0
+2025/02/15 (10:22:39) | WARNING: Failed to get disk/partition stats for mount "/mnt/NAS" with statvfs error code: 19. Ignoring...

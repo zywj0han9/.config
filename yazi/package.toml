@@ -1,5 +1,24 @@
-[plugin]
-deps = [{ use = "yazi-rs/plugins:git", rev = "a430295" }, { use = "yazi-rs/plugins:smart-enter", rev = "a430295" }, { use = "Rolv-Apneseth/starship", rev = "af8bf6f" }, { use = "llanosrocas/yaziline", rev = "864572c" }]
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "cb6165b"
+hash = "7918aab6a71caf31b58411f789195677"
 
-[flavor]
-deps = [{ use = "PinThePenguine/sunset", rev = "181acd4" }]
+[[plugin.deps]]
+use = "Rolv-Apneseth/starship"
+rev = "6c639b4"
+hash = "5614c46d5de76623c283d415bfac8025"
+
+[[plugin.deps]]
+use = "llanosrocas/yaziline"
+rev = "e06c47f"
+hash = "7df84299e89ffefd4686d1e20a295c8a"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "cb6165b"
+hash = "ee5fa7e64db72d6b10c2315de97c9cc7"
+
+[[flavor.deps]]
+use = "PinThePenguine/sunset"
+rev = "181acd4"
+hash = "cc4c39af7098f02c42fec223fc1fc967"

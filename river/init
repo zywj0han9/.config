@@ -1,5 +1,11 @@
 #! /bin/sh
 
-riverctl spawn "~/.config/river/keymap"
-riverctl spawn "~/.config/river/autostart"
-riverctl spawn "~/.config/river/set_background"
+riverctl spawn "$HOME/.config/river/set_env"
+
+riverctl spawn "$HOME/.config/river/keymap"
+
+riverctl spawn "$HOME/.config/river/autostart"
+
+#riverctl spawn "$HOME/.config/river/set_background"
+
+
