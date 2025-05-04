@@ -32,7 +32,15 @@ set -gx VISUAL nvim
 ###################################
 ###         obs
 ###################################
-set -x XDG_CURRENT_DESKTOP sway
+set -x XDG_CURRENT_DESKTOP river
+#set -x XDG_CURRENT_DESKTOP hyprland
+set -x XDG_SESSION_DESKTOP sway
+#set -x XDG_SESSION_DESKTOP hyprland
+#set -x QT_QPA_PLATFORM wayland
+set -x SDL_VIDEODRIVER wayland
+#set -x SDL_VIDEODRIVER hyprland
+set -x MOZ_ENABLE_WAYLAND 1
+set -x QT_QPA_PLATFORM "wayland;xcb"
 
 ###################################
 ###         Nvidia
@@ -53,16 +61,18 @@ set -gx WLR_RENDERER_ALLOW_SOFTWARE 1
 ###################################
 ###         DPI
 ###################################
-set -gx GDK_SCALE 1.5
-set -gx GDK_DPI_SCALE 1.5
-set -gx QT_SCALE_FACTOR 1.5
-set -gx QT_DPI_SCALE 1.5
-set -gx XDG_SESSION_TYPE wayland
+#set -gx GDK_SCALE 1.5
+#set -gx GDK_DPI_SCALE 1.5
+#set -gx QT_SCALE_FACTOR 1.5
+#set -gx QT_DPI_SCALE 1.5
+#set -gx XDG_SESSION_TYPE wayland
+#set -x WLR_NO_HARDWARE_CURSORS 1
 
 ###################################
 ###         Local Config		###
 ###################################
 set -x LANG zh_CN.UTF-8
+#set -x LANG en_US.UTF-8
 set -x LANGUAGE zh_CN:en_US
 
 ###################################
@@ -73,6 +83,7 @@ set -x XMODIFIERS "@im=fcitx"
 set -x INPUT_METHOD fcitx
 set -x SDL_IM_MODULE fcitx
 set -x GLFW_IM_MODULE fcitx
+set -x GTK_IM_MODULE fcitx
 
 ###################################
 ###	         Fonts Path		    ###
@@ -80,9 +91,8 @@ set -x GLFW_IM_MODULE fcitx
 set -x FONTCONFIG_PATH "/usr/share/fontcontig"
 
 ###################################
-###	          QT Config		    ###
+###	     Remmina Config		    ###
 ###################################
-#set -x QT_LOGGING_RULES "*.debug=false;*.info=false;*.warning=true"
 
 ###################################
 ###	        Gitlab Config		###
@@ -111,6 +121,7 @@ alias File "cd ~/Documents"
 ###################################
 set -x NPM_PACKAGES "~/.npm-packages"
 set -x NODE_PATH "$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
+set -x N_PREFIX "$NPM_PACKAGES/lib/node_modules/n"
 set -x PATH "$NPM_PACKAGES/bin:$PATH"
 set -x PATH /usr/local/bin/ $PATH
 
