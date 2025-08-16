@@ -3,7 +3,7 @@ use = "tokyo-night"
 
 # : Manager {{{
 
-[mgr]
+[manager]
 cwd = { fg = "#7aa2f7" }  # Blue
 
 # Hovered

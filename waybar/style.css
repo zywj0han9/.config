@@ -1,0 +1,125 @@
+/*
+ *  Modern Dark Theme for Waybar
+ */
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: 'JetBrains Mono Nerd Font', FontAwesome, sans-serif;
+    font-size: 15px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(20, 20, 20, 0.85); /* A very dark, slightly transparent background */
+    color: #cdd6f4; /* Catppuccin text color */
+}
+
+/* Base style for all modules */
+#workspaces,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#custom-power,
+#wlr-taskbar {
+    background: transparent;
+    padding: 2px 8px;
+    margin: 2px 4px;
+}
+
+/* The magic for the underline highlight */
+.modules-left > widget > *,
+.modules-right > widget > * {
+    border-bottom: 2px solid transparent; /* Default transparent underline */
+}
+
+/* Taskbar specific styling */
+#wlr-taskbar {
+    padding: 0;
+}
+
+#wlr-taskbar button {
+    padding: 2px 8px;
+    margin: 0 3px;
+    border-radius: 4px;
+    border-bottom: 3px solid transparent;
+}
+
+#wlr-taskbar button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#wlr-taskbar button.active {
+    border-bottom: 3px solid #89b4fa; /* Blue underline for active window */
+    color: #89b4fa; /* Blue text color */
+}
+
+/* If you use workspaces instead of taskbar */
+#workspaces button {
+    padding: 2px 8px;
+    margin: 0 3px;
+    border-radius: 4px;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.active {
+    border-bottom: 3px solid #a6e3a1; /* Green underline */
+    color: #a6e3a1;
+}
+
+/* Module-specific coloring */
+#network {
+    color: #fab387; /* Peach color */
+    border-bottom: 2px solid #313244;
+    border-radius: 8px;
+    padding: 2px 12px;
+}
+
+#battery {
+    color: #89b4fa; /* Blue color */
+}
+
+#battery.charging, #battery.plugged {
+    color: #a6e3a1; /* Green color */
+}
+
+#battery.critical:not(.charging) {
+    color: #f38ba8; /* Red color */
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#pulseaudio {
+    color: #cba6f7; /* Mauve color */
+}
+
+#pulseaudio.muted {
+    color: #6c7086;
+}
+
+#clock {
+    color: #f5c2e7; /* Pink color */
+}
+
+#custom-power {
+    color: #f38ba8; /* Red color */
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+#tray {
+    padding-right: 12px;
+}
+
+/* Blinking animation for critical battery */
+@keyframes blink {
+    to {
+        background-color: #f38ba8;
+        color: #1e1e2e;
+    }
+}

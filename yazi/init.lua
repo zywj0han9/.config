@@ -7,7 +7,7 @@ require("yaziline"):setup {
 }
 
 require("starship"):setup {
-    config_file = "~/.config/yazi/theme/starship.toml",
+    config_file = "~/.config/starship.toml",
 }
 
 require("git"):setup {}
@@ -26,3 +26,6 @@ Status:children_add(function()
 	}
 end, 500, Status.RIGHT)
 
+require("yamb"):setup {
+	cli = "fzf",
+}

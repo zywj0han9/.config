@@ -1,0 +1,65 @@
+{
+    "layer": "top",
+    "position": "top", 
+    "height": 40,
+    "spacing": 5,
+
+    "modules-left": ["custom/launcher", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["battery", "pulseaudio", "network", "tray"],
+
+    // Module Configurations
+	"custom/launcher": {
+		"format": "",
+		"on-click": "wofi --show drun",
+		"tooltip": true,
+		"tooltip-format": "Application Launcher"
+	},
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 22,
+        "all-outputs": true,
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "tooltip-format": "{title}"
+    },
+    "network": {
+        "format": "↓ {bandwidthDownBits} ↑ {bandwidthUpBits}",
+        "format-disconnected": "⚠ Disconnected",
+        "interval": 2,
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr} ",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) "
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}",
+        "format-muted": " Muted",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "clock": {
+        "format": " {:%d/%m/%Y - %H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "tray": {
+        "icon-size": 20,
+        "spacing": 10
+    },
+    "custom/power": {
+        "format": "",
+        "on-click": "wlogout", //
+        "tooltip": true,
+        "tooltip-format": "Power Menu"
+    }
+}

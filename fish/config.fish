@@ -32,13 +32,13 @@ set -gx VISUAL nvim
 ###################################
 ###         obs
 ###################################
-set -x XDG_CURRENT_DESKTOP river
+#set -x XDG_CURRENT_DESKTOP river
 #set -x XDG_CURRENT_DESKTOP hyprland
-set -x XDG_SESSION_DESKTOP sway
-#set -x XDG_SESSION_DESKTOP hyprland
-#set -x QT_QPA_PLATFORM wayland
+#set -x XDG_SESSION_DESKTOP sway
+set -x XDG_SESSION_DESKTOP hyprland
+set -x QT_QPA_PLATFORM wayland
 set -x SDL_VIDEODRIVER wayland
-#set -x SDL_VIDEODRIVER hyprland
+set -x SDL_VIDEODRIVER hyprland
 set -x MOZ_ENABLE_WAYLAND 1
 set -x QT_QPA_PLATFORM "wayland;xcb"
 
@@ -83,7 +83,7 @@ set -x XMODIFIERS "@im=fcitx"
 set -x INPUT_METHOD fcitx
 set -x SDL_IM_MODULE fcitx
 set -x GLFW_IM_MODULE fcitx
-set -x GTK_IM_MODULE fcitx
+#set -x GTK_IM_MODULE fcitx
 
 ###################################
 ###	         Fonts Path		    ###
@@ -91,13 +91,9 @@ set -x GTK_IM_MODULE fcitx
 set -x FONTCONFIG_PATH "/usr/share/fontcontig"
 
 ###################################
-###	     Remmina Config		    ###
+###	        Lazygit Config		###
 ###################################
-
-###################################
-###	        Gitlab Config		###
-###################################
-
+alias lg lazygit
 ###################################
 ###         JAVA Config		    ###
 ###################################
@@ -119,12 +115,13 @@ alias File "cd ~/Documents"
 ###################################
 ###         NPM Config		    ###
 ###################################
-set -x NPM_PACKAGES "~/.npm-packages"
+set -x NPM_PACKAGES "$HOME/.npm-packages"
 set -x NODE_PATH "$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
-set -x N_PREFIX "$NPM_PACKAGES/lib/node_modules/n"
-set -x PATH "$NPM_PACKAGES/bin:$PATH"
-set -x PATH /usr/local/bin/ $PATH
-
+set -x N_PREFIX "$NPM_PACKAGES"
+set -x PATH "$NPM_PACKAGES/lib/node_modules/n/bin" \
+            "$NPM_PACKAGES/bin" \
+            /usr/local/bin \
+            $PATH
 ###################################
 ###	        River Config		###
 ###################################
@@ -142,10 +139,15 @@ set -U fish_user_paths $HOME/.local/share/gem/ruby/3.3.0/bin $fish_user_paths
 ###################################
 alias install "sudo pacman -S"
 alias update "sudo pacman -Sy"
-alias remove "sudo pacman -Rs"
+alias remove "sudo pacman -Rnc"
 alias upgrade "sudo pacman -Syyu"
 alias search "sudo pacman -Ss"
 alias list "sudo pacman -Q"
+
+###################################
+###         Hyprland            ###
+###################################
+set -gx AQ_DRM_DEVICES /dev/dri/card1:/dev/dri/card0
 
 ###################################
 ###	        Ubuntu Config		###
@@ -164,13 +166,13 @@ starship init fish | source
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-if test -f /home/j0han9/anaconda3/bin/conda
-    eval /home/j0han9/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+if test -f $HOME/anaconda3/bin/conda
+    eval $HOME/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 else
-    if test -f "/home/j0han9/anaconda3/etc/fish/conf.d/conda.fish"
-        . "/home/j0han9/anaconda3/etc/fish/conf.d/conda.fish"
+    if test -f "$HOME/anaconda3/etc/fish/conf.d/conda.fish"
+        . "$HOME/anaconda3/etc/fish/conf.d/conda.fish"
     else
-        set -x PATH "/home/j0han9/anaconda3/bin" $PATH
+        set -x PATH "$HOME/anaconda3/bin" $PATH
         end
 end
 

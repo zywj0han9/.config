@@ -1,4 +1,4 @@
-[mgr]
+[manager]
 prepend_keymap = [
 	{ on = "i", run = 'plugin smart-enter' },
 	{ on = "<Enter>", run = 'plugin smart-enter' },
