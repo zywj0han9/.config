@@ -88,7 +88,7 @@ set -x GLFW_IM_MODULE fcitx
 ###################################
 ###	         Fonts Path		    ###
 ###################################
-set -x FONTCONFIG_PATH "/usr/share/fontcontig"
+set -x FONTCONFIG_PATH "/usr/share/fontconfig"
 
 ###################################
 ###	        Lazygit Config		###
