@@ -9,7 +9,7 @@ alias nf neofetch
 alias gc "git clone"
 alias nas "cd /mnt/NAS"
 alias find "sudo find / -name "
-
+alias ping sping
 ###################################
 ###         Gaming Mode
 ###################################
@@ -83,12 +83,12 @@ set -x XMODIFIERS "@im=fcitx"
 set -x INPUT_METHOD fcitx
 set -x SDL_IM_MODULE fcitx
 set -x GLFW_IM_MODULE fcitx
-#set -x GTK_IM_MODULE fcitx
+set -x GTK_IM_MODULE fcitx
 
 ###################################
 ###	         Fonts Path		    ###
 ###################################
-set -x FONTCONFIG_PATH "/usr/share/fontconfig"
+set -x FONTCONFIG_PATH "/usr/share/fontcontig"
 
 ###################################
 ###	        Lazygit Config		###
@@ -166,13 +166,17 @@ starship init fish | source
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-if test -f $HOME/anaconda3/bin/conda
-    eval $HOME/anaconda3/bin/conda "shell.fish" "hook" $argv | source
-else
-    if test -f "$HOME/anaconda3/etc/fish/conf.d/conda.fish"
-        . "$HOME/anaconda3/etc/fish/conf.d/conda.fish"
-    else
-        set -x PATH "$HOME/anaconda3/bin" $PATH
-        end
-end
+#if test -f $HOME/anaconda3/bin/conda
+#    eval $HOME/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+#end
+
+#if test -f $HOME/anaconda3/bin/conda
+#    eval $HOME/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+#else
+#    if test -f "$HOME/anaconda3/etc/fish/conf.d/conda.fish"
+#        . "$HOME/anaconda3/etc/fish/conf.d/conda.fish"
+#    else
+#        set -x PATH "$HOME/anaconda3/bin" $PATH
+#        end
+#end
 
