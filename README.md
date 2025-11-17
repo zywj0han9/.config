@@ -6,7 +6,7 @@
 
 ```
 .
-├── awesome/          # AwesomeWM 窗口管理器配置
+├── awesome/         # AwesomeWM 窗口管理器配置
 ├── btop/            # 系统监控工具配置
 ├── Clamav/          # 防病毒软件配置
 ├── dunst/           # 通知守护进程配置
@@ -16,6 +16,7 @@
 ├── kitty/           # Kitty 终端模拟器配置
 ├── tmux/            # 终端复用器配置
 ├── waybar/          # Wayland 状态栏配置
+├── nvim/            # Neovim 编辑器配置
 └── yazi/            # 文件管理器配置
 ```
 
@@ -40,6 +41,9 @@
 ### 🎨 界面美化
 - **Waybar**: Wayland 环境下的状态栏
 - **Dunst**: 轻量级通知管理器
+
+### 🛠️ 开发工具
+- **Neovim**: 高度可定制的文本编辑器
 
 ## 🔧 安装方法
 
